@@ -1,0 +1,600 @@
+customer_id,store_id,first_name,last_name,email,active,address,district,city,country,zip,phone
+1,1,MARY,SMITH,MARY.SMITH@sakilacustomer.org,1,1913 Hanoi Way,Nagasaki,Sasebo,Japan,35200.0,28303384290.0
+2,1,PATRICIA,JOHNSON,PATRICIA.JOHNSON@sakilacustomer.org,1,1121 Loja Avenue,California,San Bernardino,United States,17886.0,838635286649.0
+3,1,LINDA,WILLIAMS,LINDA.WILLIAMS@sakilacustomer.org,1,692 Joliet Street,Attika,Athenai,Greece,83579.0,448477190408.0
+4,2,BARBARA,JONES,BARBARA.JONES@sakilacustomer.org,1,1566 Inegl Manor,Mandalay,Myingyan,Myanmar,53561.0,705814003527.0
+5,1,ELIZABETH,BROWN,ELIZABETH.BROWN@sakilacustomer.org,1,53 Idfu Parkway,Nantou,Nantou,Taiwan,42399.0,10655648674.0
+6,2,JENNIFER,DAVIS,JENNIFER.DAVIS@sakilacustomer.org,1,1795 Santiago de Compostela Way,Texas,Laredo,United States,18743.0,860452626434.0
+7,1,MARIA,MILLER,MARIA.MILLER@sakilacustomer.org,1,900 Santiago de Compostela Parkway,Central Serbia,Kragujevac,Yugoslavia,93896.0,716571220373.0
+8,2,SUSAN,WILSON,SUSAN.WILSON@sakilacustomer.org,1,478 Joliet Way,Hamilton,Hamilton,New Zealand,77948.0,657282285970.0
+9,2,MARGARET,MOORE,MARGARET.MOORE@sakilacustomer.org,1,613 Korolev Drive,Masqat,Masqat,Oman,45844.0,380657522649.0
+10,1,DOROTHY,TAYLOR,DOROTHY.TAYLOR@sakilacustomer.org,1,1531 Sal Drive,Esfahan,Esfahan,Iran,53628.0,648856936185.0
+11,2,LISA,ANDERSON,LISA.ANDERSON@sakilacustomer.org,1,1542 Tarlac Parkway,Kanagawa,Sagamihara,Japan,1027.0,635297277345.0
+12,1,NANCY,THOMAS,NANCY.THOMAS@sakilacustomer.org,1,808 Bhopal Manor,Haryana,Yamuna Nagar,India,10672.0,465887807014.0
+13,2,KAREN,JACKSON,KAREN.JACKSON@sakilacustomer.org,1,270 Amroha Parkway,Osmaniye,Osmaniye,Turkey,29610.0,695479687538.0
+14,2,BETTY,WHITE,BETTY.WHITE@sakilacustomer.org,1,770 Bydgoszcz Avenue,California,Citrus Heights,United States,16266.0,517338314235.0
+15,1,HELEN,HARRIS,HELEN.HARRIS@sakilacustomer.org,1,419 Iligan Lane,Madhya Pradesh,Bhopal,India,72878.0,990911107354.0
+16,2,SANDRA,MARTIN,SANDRA.MARTIN@sakilacustomer.org,0,360 Toulouse Parkway,England,Southend-on-Sea,United Kingdom,54308.0,949312333307.0
+17,1,DONNA,THOMPSON,DONNA.THOMPSON@sakilacustomer.org,1,270 Toulon Boulevard,Kalmykia,Elista,Russian Federation,81766.0,407752414682.0
+18,2,CAROL,GARCIA,CAROL.GARCIA@sakilacustomer.org,1,320 Brest Avenue,Kaduna,Kaduna,Nigeria,43331.0,747791594069.0
+19,1,RUTH,MARTINEZ,RUTH.MARTINEZ@sakilacustomer.org,1,1417 Lancaster Avenue,Northern Cape,Kimberley,South Africa,72192.0,272572357893.0
+20,2,SHARON,ROBINSON,SHARON.ROBINSON@sakilacustomer.org,1,1688 Okara Way,Nothwest Border Prov,Mardan,Pakistan,21954.0,144453869132.0
+21,1,MICHELLE,CLARK,MICHELLE.CLARK@sakilacustomer.org,1,262 A Corua (La Corua) Parkway,Dhaka,Tangail,Bangladesh,34418.0,892775750063.0
+22,1,LAURA,RODRIGUEZ,LAURA.RODRIGUEZ@sakilacustomer.org,1,28 Charlotte Amalie Street,Rabat-Sal-Zammour-Z,Sal,Morocco,37551.0,161968374323.0
+23,2,SARAH,LEWIS,SARAH.LEWIS@sakilacustomer.org,1,1780 Hino Boulevard,Liepaja,Liepaja,Latvia,7716.0,902731229323.0
+24,2,KIMBERLY,LEE,KIMBERLY.LEE@sakilacustomer.org,1,96 Tafuna Way,Crdoba,Crdoba,Argentina,99865.0,934730187245.0
+25,1,DEBORAH,WALKER,DEBORAH.WALKER@sakilacustomer.org,1,934 San Felipe de Puerto Plata Street,Sind,Shikarpur,Pakistan,99780.0,196495945706.0
+26,2,JESSICA,HALL,JESSICA.HALL@sakilacustomer.org,1,18 Duisburg Boulevard,No district,Citt del Vaticano,Holy See (Vatican City State),58327.0,998009777982.0
+27,2,SHIRLEY,ALLEN,SHIRLEY.ALLEN@sakilacustomer.org,1,217 Botshabelo Place,Southern Mindanao,Davao,Philippines,49521.0,665356572025.0
+28,1,CYNTHIA,YOUNG,CYNTHIA.YOUNG@sakilacustomer.org,1,1425 Shikarpur Manor,Bihar,Munger (Monghyr),India,65599.0,678220867005.0
+29,2,ANGELA,HERNANDEZ,ANGELA.HERNANDEZ@sakilacustomer.org,1,786 Aurora Avenue,Yamaguchi,Shimonoseki,Japan,65750.0,18461860151.0
+30,1,MELISSA,KING,MELISSA.KING@sakilacustomer.org,1,1668 Anpolis Street,Taipei,Lungtan,Taiwan,50199.0,525255540978.0
+31,2,BRENDA,WRIGHT,BRENDA.WRIGHT@sakilacustomer.org,1,33 Gorontalo Way,West Bengali,Kamarhati,India,30348.0,745994947458.0
+32,1,AMY,LOPEZ,AMY.LOPEZ@sakilacustomer.org,1,176 Mandaluyong Place,Uttar Pradesh,Jhansi,India,65213.0,627705991774.0
+33,2,ANNA,HILL,ANNA.HILL@sakilacustomer.org,1,127 Purnea (Purnia) Manor,Piemonte,Alessandria,Italy,79388.0,911872220378.0
+34,2,REBECCA,SCOTT,REBECCA.SCOTT@sakilacustomer.org,1,61 Tama Street,Okayama,Kurashiki,Japan,94065.0,708403338270.0
+35,2,VIRGINIA,GREEN,VIRGINIA.GREEN@sakilacustomer.org,1,391 Callao Drive,Midi-Pyrnes,Toulouse,France,34021.0,440512153169.0
+36,2,KATHLEEN,ADAMS,KATHLEEN.ADAMS@sakilacustomer.org,1,334 Munger (Monghyr) Lane,Markazi,Arak,Iran,38145.0,481183273622.0
+37,1,PAMELA,BAKER,PAMELA.BAKER@sakilacustomer.org,1,1440 Fukuyama Loop,Henan,Nanyang,China,47929.0,912257250465.0
+38,1,MARTHA,GONZALEZ,MARTHA.GONZALEZ@sakilacustomer.org,1,269 Cam Ranh Parkway,Chisinau,Chisinau,Moldova,34689.0,489783829737.0
+39,1,DEBRA,NELSON,DEBRA.NELSON@sakilacustomer.org,1,306 Antofagasta Place,Esprito Santo,Vila Velha,Brazil,3989.0,378318851631.0
+40,2,AMANDA,CARTER,AMANDA.CARTER@sakilacustomer.org,1,671 Graz Street,Oriental,Nador,Morocco,94399.0,680768868518.0
+41,1,STEPHANIE,MITCHELL,STEPHANIE.MITCHELL@sakilacustomer.org,1,42 Brindisi Place,Yerevan,Yerevan,Armenia,16744.0,42384721397.0
+42,2,CAROLYN,PEREZ,CAROLYN.PEREZ@sakilacustomer.org,1,1632 Bislig Avenue,Nonthaburi,Pak Kret,Thailand,61117.0,471675840679.0
+43,2,CHRISTINE,ROBERTS,CHRISTINE.ROBERTS@sakilacustomer.org,1,1447 Imus Way,Tahiti,Faaa,French Polynesia,48942.0,539758313890.0
+44,1,MARIE,TURNER,MARIE.TURNER@sakilacustomer.org,1,1998 Halifax Drive,Lipetsk,Lipetsk,Russian Federation,76022.0,177727722820.0
+45,1,JANET,PHILLIPS,JANET.PHILLIPS@sakilacustomer.org,1,1718 Valencia Street,Antofagasta,Antofagasta,Chile,37359.0,675292816413.0
+46,2,CATHERINE,CAMPBELL,CATHERINE.CAMPBELL@sakilacustomer.org,1,46 Pjatigorsk Lane,Moscow (City),Moscow,Russian Federation,23616.0,262076994845.0
+47,1,FRANCES,PARKER,FRANCES.PARKER@sakilacustomer.org,1,686 Garland Manor,Cear,Juazeiro do Norte,Brazil,52535.0,69493378813.0
+48,1,ANN,EVANS,ANN.EVANS@sakilacustomer.org,1,909 Garland Manor,Tatarstan,Niznekamsk,Russian Federation,69367.0,705800322606.0
+49,2,JOYCE,EDWARDS,JOYCE.EDWARDS@sakilacustomer.org,1,725 Isesaki Place,Mekka,Jedda,Saudi Arabia,74428.0,876295323994.0
+50,1,DIANE,COLLINS,DIANE.COLLINS@sakilacustomer.org,1,115 Hidalgo Parkway,Khartum,Omdurman,Sudan,80168.0,307703950263.0
+51,1,ALICE,STEWART,ALICE.STEWART@sakilacustomer.org,1,1135 Izumisano Parkway,California,Fontana,United States,48150.0,171822533480.0
+52,1,JULIE,SANCHEZ,JULIE.SANCHEZ@sakilacustomer.org,1,939 Probolinggo Loop,Galicia,A Corua (La Corua),Spain,4166.0,680428310138.0
+53,1,HEATHER,MORRIS,HEATHER.MORRIS@sakilacustomer.org,1,17 Kabul Boulevard,Chiba,Nagareyama,Japan,38594.0,697760867968.0
+54,1,TERESA,ROGERS,TERESA.ROGERS@sakilacustomer.org,1,1964 Allappuzha (Alleppey) Street,Yamaguchi,Iwakuni,Japan,48980.0,920811325222.0
+55,2,DORIS,REED,DORIS.REED@sakilacustomer.org,1,1697 Kowloon and New Kowloon Loop,Moskova,Balaiha,Russian Federation,57807.0,499352017190.0
+56,1,GLORIA,COOK,GLORIA.COOK@sakilacustomer.org,1,1668 Saint Louis Place,Tahiti,Papeete,French Polynesia,39072.0,347487831378.0
+57,2,EVELYN,MORGAN,EVELYN.MORGAN@sakilacustomer.org,1,943 Tokat Street,Vaduz,Vaduz,Liechtenstein,45428.0,889318963672.0
+58,1,JEAN,BELL,JEAN.BELL@sakilacustomer.org,1,1114 Liepaja Street,Sarawak,Kuching,Malaysia,69226.0,212869228936.0
+59,1,CHERYL,MURPHY,CHERYL.MURPHY@sakilacustomer.org,1,1213 Ranchi Parkway,Karnataka,Mysore,India,94352.0,800024380485.0
+60,1,MILDRED,BAILEY,MILDRED.BAILEY@sakilacustomer.org,1,81 Hodeida Way,Rajasthan,Jaipur,India,55561.0,250767749542.0
+61,2,KATHERINE,RIVERA,KATHERINE.RIVERA@sakilacustomer.org,1,915 Ponce Place,Basel-Stadt,Basel,Switzerland,83980.0,1395251317.0
+62,1,JOAN,COOPER,JOAN.COOPER@sakilacustomer.org,1,1717 Guadalajara Lane,Missouri,Saint Louis,United States,85505.0,914090181665.0
+63,1,ASHLEY,RICHARDSON,ASHLEY.RICHARDSON@sakilacustomer.org,1,1214 Hanoi Way,Nebraska,Lincoln,United States,67055.0,491001136577.0
+64,2,JUDITH,COX,JUDITH.COX@sakilacustomer.org,0,1966 Amroha Avenue,Sichuan,Daxian,China,70385.0,333489324603.0
+65,2,ROSE,HOWARD,ROSE.HOWARD@sakilacustomer.org,1,698 Otsu Street,Cayenne,Cayenne,French Guiana,71110.0,409983924481.0
+66,2,JANICE,WARD,JANICE.WARD@sakilacustomer.org,1,1150 Kimchon Manor,Skne ln,Malm,Sweden,96109.0,663449333709.0
+67,1,KELLY,TORRES,KELLY.TORRES@sakilacustomer.org,1,1586 Guaruj Place,Hunan,Xiangtan,China,5135.0,947233365992.0
+68,1,NICOLE,PETERSON,NICOLE.PETERSON@sakilacustomer.org,1,57 Arlington Manor,Madhya Pradesh,Shivapuri,India,48960.0,990214419142.0
+69,2,JUDY,GRAY,JUDY.GRAY@sakilacustomer.org,1,1031 Daugavpils Parkway,Bchar,Bchar,Algeria,59025.0,107137400143.0
+70,2,CHRISTINA,RAMIREZ,CHRISTINA.RAMIREZ@sakilacustomer.org,1,1124 Buenaventura Drive,Mekka,al-Hawiya,Saudi Arabia,6856.0,407733804223.0
+71,1,KATHY,JAMES,KATHY.JAMES@sakilacustomer.org,1,492 Cam Ranh Street,Eastern Visayas,Baybay,Philippines,50805.0,565018274456.0
+72,2,THERESA,WATSON,THERESA.WATSON@sakilacustomer.org,1,89 Allappuzha (Alleppey) Manor,National Capital Reg,Taguig,Philippines,75444.0,255800440636.0
+73,2,BEVERLY,BROOKS,BEVERLY.BROOKS@sakilacustomer.org,1,1947 Poos de Caldas Boulevard,Chiayi,Chiayi,Taiwan,60951.0,427454485876.0
+74,1,DENISE,KELLY,DENISE.KELLY@sakilacustomer.org,1,1206 Dos Quebradas Place,So Paulo,Rio Claro,Brazil,20207.0,241832790687.0
+75,2,TAMMY,SANDERS,TAMMY.SANDERS@sakilacustomer.org,1,1551 Rampur Lane,Changhwa,Changhwa,Taiwan,72394.0,251164340471.0
+76,2,IRENE,PRICE,IRENE.PRICE@sakilacustomer.org,1,602 Paarl Street,Pavlodar,Pavlodar,Kazakstan,98889.0,896314772871.0
+77,2,JANE,BENNETT,JANE.BENNETT@sakilacustomer.org,1,1692 Ede Loop,So Paulo,Araatuba,Brazil,9223.0,918711376618.0
+78,1,LORI,WOOD,LORI.WOOD@sakilacustomer.org,1,936 Salzburg Lane,Uttar Pradesh,Rae Bareli,India,96709.0,875756771675.0
+79,1,RACHEL,BARNES,RACHEL.BARNES@sakilacustomer.org,1,586 Tete Way,Kanagawa,Kamakura,Japan,1079.0,18581624103.0
+80,1,MARILYN,ROSS,MARILYN.ROSS@sakilacustomer.org,1,1888 Kabul Drive,Oyo & Osun,Ife,Nigeria,20936.0,701457319790.0
+81,1,ANDREA,HENDERSON,ANDREA.HENDERSON@sakilacustomer.org,1,320 Baiyin Parkway,Mahajanga,Mahajanga,Madagascar,37307.0,223664661973.0
+82,1,KATHRYN,COLEMAN,KATHRYN.COLEMAN@sakilacustomer.org,1,927 Baha Blanca Parkway,Krim,Simferopol,Ukraine,9495.0,821972242086.0
+83,1,LOUISE,JENKINS,LOUISE.JENKINS@sakilacustomer.org,1,929 Tallahassee Loop,Gauteng,Springs,South Africa,74671.0,800716535041.0
+84,2,SARA,PERRY,SARA.PERRY@sakilacustomer.org,1,125 Citt del Vaticano Boulevard,Puebla,Atlixco,Mexico,67912.0,48417642933.0
+85,2,ANNE,POWELL,ANNE.POWELL@sakilacustomer.org,1,1557 Ktahya Boulevard,England,Bradford,United Kingdom,88002.0,720998247660.0
+86,2,JACQUELINE,LONG,JACQUELINE.LONG@sakilacustomer.org,1,870 Ashqelon Loop,Songkhla,Songkhla,Thailand,84931.0,135117278909.0
+87,1,WANDA,PATTERSON,WANDA.PATTERSON@sakilacustomer.org,1,1740 Portoviejo Avenue,Sucre,Sincelejo,Colombia,29932.0,198123170793.0
+88,2,BONNIE,HUGHES,BONNIE.HUGHES@sakilacustomer.org,1,1942 Ciparay Parkway,Cheju,Cheju,South Korea,82624.0,978987363654.0
+89,1,JULIA,FLORES,JULIA.FLORES@sakilacustomer.org,1,1926 El Alto Avenue,Buenos Aires,La Plata,Argentina,75543.0,846225459260.0
+90,2,RUBY,WASHINGTON,RUBY.WASHINGTON@sakilacustomer.org,1,1952 Chatsworth Drive,Guangdong,Meixian,China,25958.0,991562402283.0
+91,2,LOIS,BUTLER,LOIS.BUTLER@sakilacustomer.org,1,1370 Le Mans Avenue,Brunei and Muara,Bandar Seri Begawan,Brunei,52163.0,345679835036.0
+92,2,TINA,SIMMONS,TINA.SIMMONS@sakilacustomer.org,1,984 Effon-Alaiye Avenue,Gois,Goinia,Brazil,17119.0,132986892228.0
+93,1,PHYLLIS,FOSTER,PHYLLIS.FOSTER@sakilacustomer.org,1,832 Nakhon Sawan Manor,Inner Mongolia,Zalantun,China,49021.0,275595571388.0
+94,1,NORMA,GONZALES,NORMA.GONZALES@sakilacustomer.org,1,152 Kitwe Parkway,Caraga,Bislig,Philippines,53182.0,835433605312.0
+95,2,PAULA,BRYANT,PAULA.BRYANT@sakilacustomer.org,1,1697 Tanauan Lane,Punjab,Pathankot,India,22870.0,4764773857.0
+96,1,DIANA,ALEXANDER,DIANA.ALEXANDER@sakilacustomer.org,1,1308 Arecibo Way,Georgia,Augusta-Richmond County,United States,30695.0,6171054059.0
+97,2,ANNIE,RUSSELL,ANNIE.RUSSELL@sakilacustomer.org,1,1599 Plock Drive,Tete,Tete,Mozambique,71986.0,817248913162.0
+98,1,LILLIAN,GRIFFIN,LILLIAN.GRIFFIN@sakilacustomer.org,1,669 Firozabad Loop,Abu Dhabi,al-Ayn,United Arab Emirates,92265.0,412903167998.0
+99,2,EMILY,DIAZ,EMILY.DIAZ@sakilacustomer.org,1,588 Vila Velha Manor,Kyongsangbuk,Kimchon,South Korea,51540.0,333339908719.0
+100,1,ROBIN,HAYES,ROBIN.HAYES@sakilacustomer.org,1,1913 Kamakura Place,Lipetsk,Jelets,Russian Federation,97287.0,942570536750.0
+101,1,PEGGY,MYERS,PEGGY.MYERS@sakilacustomer.org,1,733 Mandaluyong Place,Asir,Abha,Saudi Arabia,77459.0,196568435814.0
+102,1,CRYSTAL,FORD,CRYSTAL.FORD@sakilacustomer.org,1,659 Vaduz Drive,Ha Darom,Ashdod,Israel,49708.0,709935135487.0
+103,1,GLADYS,HAMILTON,GLADYS.HAMILTON@sakilacustomer.org,1,1177 Jelets Way,Kwara & Kogi,Ilorin,Nigeria,3305.0,484292626944.0
+104,1,RITA,GRAHAM,RITA.GRAHAM@sakilacustomer.org,1,1386 Yangor Avenue,Provence-Alpes-Cte,Toulon,France,80720.0,449216226468.0
+105,1,DAWN,SULLIVAN,DAWN.SULLIVAN@sakilacustomer.org,1,454 Nakhon Sawan Boulevard,Funafuti,Funafuti,Tuvalu,76383.0,963887147572.0
+106,1,CONNIE,WALLACE,CONNIE.WALLACE@sakilacustomer.org,1,1867 San Juan Bautista Tuxtepec Avenue,Ivanovo,Ivanovo,Russian Federation,78311.0,547003310357.0
+107,1,FLORENCE,WOODS,FLORENCE.WOODS@sakilacustomer.org,1,1532 Dzerzinsk Way,Buenos Aires,Merlo,Argentina,9599.0,330838016880.0
+108,1,TRACY,COLE,TRACY.COLE@sakilacustomer.org,1,1002 Ahmadnagar Manor,Mxico,Huixquilucan,Mexico,93026.0,371490777743.0
+109,2,EDNA,WEST,EDNA.WEST@sakilacustomer.org,1,682 Junan Way,North West,Klerksdorp,South Africa,30418.0,622255216127.0
+110,2,TIFFANY,JORDAN,TIFFANY.JORDAN@sakilacustomer.org,1,804 Elista Drive,Hubei,Enshi,China,61069.0,379804592943.0
+111,1,CARMEN,OWENS,CARMEN.OWENS@sakilacustomer.org,1,1378 Alvorada Avenue,Distrito Federal,Caracas,Venezuela,75834.0,272234298332.0
+112,2,ROSA,REYNOLDS,ROSA.REYNOLDS@sakilacustomer.org,1,793 Cam Ranh Avenue,California,Lancaster,United States,87057.0,824370924746.0
+113,2,CINDY,FISHER,CINDY.FISHER@sakilacustomer.org,1,1079 Tel Aviv-Jaffa Boulevard,Sucre,Cuman,Venezuela,10885.0,358178933857.0
+114,2,GRACE,ELLIS,GRACE.ELLIS@sakilacustomer.org,1,442 Rae Bareli Place,Nordrhein-Westfalen,Duisburg,Germany,24321.0,886636413768.0
+115,1,WENDY,HARRISON,WENDY.HARRISON@sakilacustomer.org,1,1107 Nakhon Sawan Avenue,Mxico,Nezahualcyotl,Mexico,75149.0,867546627903.0
+116,1,VICTORIA,GIBSON,VICTORIA.GIBSON@sakilacustomer.org,1,544 Malm Parkway,Central Java,Pemalang,Indonesia,63502.0,386759646229.0
+117,1,EDITH,MCDONALD,EDITH.MCDONALD@sakilacustomer.org,1,1967 Sincelejo Place,Gujarat,Gandhinagar,India,73644.0,577812616052.0
+118,1,KIM,CRUZ,KIM.CRUZ@sakilacustomer.org,1,333 Goinia Way,Texas,Grand Prairie,United States,78625.0,909029256431.0
+119,1,SHERRY,MARSHALL,SHERRY.MARSHALL@sakilacustomer.org,1,1987 Coacalco de Berriozbal Loop,al-Qalyubiya,Shubra al-Khayma,Egypt,96065.0,787654415858.0
+120,2,SYLVIA,ORTIZ,SYLVIA.ORTIZ@sakilacustomer.org,1,241 Mosul Lane,Risaralda,Dos Quebradas,Colombia,76157.0,765345144779.0
+121,1,JOSEPHINE,GOMEZ,JOSEPHINE.GOMEZ@sakilacustomer.org,1,211 Chiayi Drive,Uttar Pradesh,Etawah,India,58186.0,665993880048.0
+122,1,THELMA,MURRAY,THELMA.MURRAY@sakilacustomer.org,1,1175 Tanauan Way,Lima,Lima,Peru,64615.0,937222955822.0
+123,2,SHANNON,FREEMAN,SHANNON.FREEMAN@sakilacustomer.org,1,117 Boa Vista Way,Uttar Pradesh,Varanasi (Benares),India,6804.0,677976133614.0
+124,1,SHEILA,WELLS,SHEILA.WELLS@sakilacustomer.org,0,848 Tafuna Manor,Ktahya,Ktahya,Turkey,45142.0,614935229095.0
+125,1,ETHEL,WEBB,ETHEL.WEBB@sakilacustomer.org,1,569 Baicheng Lane,Gauteng,Boksburg,South Africa,60304.0,490211944645.0
+126,1,ELLEN,SIMPSON,ELLEN.SIMPSON@sakilacustomer.org,1,1666 Qomsheh Drive,So Paulo,Po,Brazil,66255.0,582835362905.0
+127,2,ELAINE,STEVENS,ELAINE.STEVENS@sakilacustomer.org,1,801 Hagonoy Drive,Smolensk,Smolensk,Russian Federation,8439.0,237426099212.0
+128,1,MARJORIE,TUCKER,MARJORIE.TUCKER@sakilacustomer.org,1,1050 Garden Grove Avenue,Slaskie,Jastrzebie-Zdrj,Poland,4999.0,973047364353.0
+129,1,CARRIE,PORTER,CARRIE.PORTER@sakilacustomer.org,1,1854 Tieli Street,Shandong,Liaocheng,China,15819.0,509492324775.0
+130,1,CHARLOTTE,HUNTER,CHARLOTTE.HUNTER@sakilacustomer.org,1,758 Junan Lane,Gois,guas Lindas de Gois,Brazil,82639.0,935448624185.0
+131,2,MONICA,HICKS,MONICA.HICKS@sakilacustomer.org,1,1752 So Leopoldo Parkway,Taka-Karpatia,Mukateve,Ukraine,14014.0,252265130067.0
+132,2,ESTHER,CRAWFORD,ESTHER.CRAWFORD@sakilacustomer.org,1,898 Belm Manor,Free State,Botshabelo,South Africa,49757.0,707169393853.0
+133,1,PAULINE,HENRY,PAULINE.HENRY@sakilacustomer.org,1,261 Saint Louis Way,Coahuila de Zaragoza,Torren,Mexico,83401.0,321944036800.0
+134,1,EMMA,BOYD,EMMA.BOYD@sakilacustomer.org,1,765 Southampton Drive,al-Qalyubiya,Qalyub,Egypt,4285.0,23712411567.0
+135,2,JUANITA,MASON,JUANITA.MASON@sakilacustomer.org,1,943 Johannesburg Avenue,Maharashtra,Pune,India,5892.0,90921003005.0
+136,2,ANITA,MORALES,ANITA.MORALES@sakilacustomer.org,1,788 Atinsk Street,Karnataka,Hubli-Dharwad,India,81691.0,146497509724.0
+137,2,RHONDA,KENNEDY,RHONDA.KENNEDY@sakilacustomer.org,1,1749 Daxian Place,Gelderland,Apeldoorn,Netherlands,11044.0,963369996279.0
+138,1,HAZEL,WARREN,HAZEL.WARREN@sakilacustomer.org,1,1587 Sullana Lane,Inner Mongolia,Hohhot,China,85769.0,468060467018.0
+139,1,AMBER,DIXON,AMBER.DIXON@sakilacustomer.org,1,1029 Dzerzinsk Manor,Ynlin,Touliu,Taiwan,57519.0,33173584456.0
+140,1,EVA,RAMOS,EVA.RAMOS@sakilacustomer.org,1,1666 Beni-Mellal Place,Tennessee,Clarksville,United States,13377.0,9099941466.0
+141,1,DEBBIE,REYES,DEBBIE.REYES@sakilacustomer.org,1,928 Jaffna Loop,Hiroshima,Fukuyama,Japan,93762.0,581852137991.0
+142,1,APRIL,BURNS,APRIL.BURNS@sakilacustomer.org,1,483 Ljubertsy Parkway,Scotland,Dundee,United Kingdom,60562.0,581174211853.0
+143,1,LESLIE,GORDON,LESLIE.GORDON@sakilacustomer.org,1,374 Bat Yam Boulevard,Kilis,Kilis,Turkey,97700.0,923261616249.0
+144,1,CLARA,SHAW,CLARA.SHAW@sakilacustomer.org,1,1027 Songkhla Manor,Minsk,Molodetno,Belarus,30861.0,563660187896.0
+145,1,LUCILLE,HOLMES,LUCILLE.HOLMES@sakilacustomer.org,1,999 Sanaa Loop,Gauteng,Soshanguve,South Africa,3439.0,918032330119.0
+146,1,JAMIE,RICE,JAMIE.RICE@sakilacustomer.org,1,879 Newcastle Way,Michigan,Sterling Heights,United States,90732.0,206841104594.0
+147,2,JOANNE,ROBERTSON,JOANNE.ROBERTSON@sakilacustomer.org,1,1337 Lincoln Parkway,Saitama,Urawa,Japan,99457.0,597815221267.0
+148,1,ELEANOR,HUNT,ELEANOR.HUNT@sakilacustomer.org,1,1952 Pune Lane,Saint-Denis,Saint-Denis,Runion,92150.0,354615066969.0
+149,1,VALERIE,BLACK,VALERIE.BLACK@sakilacustomer.org,1,782 Mosul Street,Massachusetts,Brockton,United States,25545.0,885899703621.0
+150,2,DANIELLE,DANIELS,DANIELLE.DANIELS@sakilacustomer.org,1,781 Shimonoseki Drive,Michoacn de Ocampo,Hidalgo,Mexico,95444.0,632316273199.0
+151,2,MEGAN,PALMER,MEGAN.PALMER@sakilacustomer.org,1,1560 Jelets Boulevard,Shandong,Laiwu,China,77777.0,189446090264.0
+152,1,ALICIA,MILLS,ALICIA.MILLS@sakilacustomer.org,1,1963 Moscow Place,Assam,Nagaon,India,64863.0,761379480249.0
+153,2,SUZANNE,NICHOLS,SUZANNE.NICHOLS@sakilacustomer.org,1,456 Escobar Way,Jakarta Raya,Jakarta,Indonesia,36061.0,719202533520.0
+154,2,MICHELE,GRANT,MICHELE.GRANT@sakilacustomer.org,1,798 Cianjur Avenue,Shanxi,Yuncheng,China,76990.0,499408708580.0
+155,1,GAIL,KNIGHT,GAIL.KNIGHT@sakilacustomer.org,1,185 Novi Sad Place,Bern,Bern,Switzerland,41778.0,904253967161.0
+156,1,BERTHA,FERGUSON,BERTHA.FERGUSON@sakilacustomer.org,1,1367 Yantai Manor,Ondo & Ekiti,Ondo,Nigeria,21294.0,889538496300.0
+157,2,DARLENE,ROSE,DARLENE.ROSE@sakilacustomer.org,1,1386 Nakhon Sawan Boulevard,Pyongyang-si,Pyongyang,North Korea,53502.0,368899174225.0
+158,1,VERONICA,STONE,VERONICA.STONE@sakilacustomer.org,1,369 Papeete Way,North Carolina,Greensboro,United States,66639.0,170117068815.0
+159,1,JILL,HAWKINS,JILL.HAWKINS@sakilacustomer.org,1,1440 Compton Place,North Austria,Linz,Austria,81037.0,931059836497.0
+160,2,ERIN,DUNN,ERIN.DUNN@sakilacustomer.org,1,1623 Baha Blanca Manor,Moskova,Ljubertsy,Russian Federation,81511.0,149981248346.0
+161,1,GERALDINE,PERKINS,GERALDINE.PERKINS@sakilacustomer.org,1,97 Shimoga Avenue,Tel Aviv,Tel Aviv-Jaffa,Israel,44660.0,177167004331.0
+162,2,LAUREN,HUDSON,LAUREN.HUDSON@sakilacustomer.org,1,1740 Le Mans Loop,Pays de la Loire,Le Mans,France,22853.0,168476538960.0
+163,1,CATHY,SPENCER,CATHY.SPENCER@sakilacustomer.org,1,1287 Xiangfan Boulevard,Gifu,Kakamigahara,Japan,57844.0,819416131190.0
+164,2,JOANN,GARDNER,JOANN.GARDNER@sakilacustomer.org,1,842 Salzburg Lane,Adana,Tarsus,Turkey,3313.0,697151428760.0
+165,2,LORRAINE,STEPHENS,LORRAINE.STEPHENS@sakilacustomer.org,1,154 Tallahassee Loop,Xinxiang,Hami,China,62250.0,935508855935.0
+166,1,LYNN,PAYNE,LYNN.PAYNE@sakilacustomer.org,1,710 San Felipe del Progreso Avenue,Lilongwe,Lilongwe,Malawi,76901.0,843801144113.0
+167,2,SALLY,PIERCE,SALLY.PIERCE@sakilacustomer.org,1,1540 Wroclaw Drive,Maharashtra,Chandrapur,India,62686.0,182363341674.0
+168,1,REGINA,BERRY,REGINA.BERRY@sakilacustomer.org,1,475 Atinsk Way,Gansu,Jinchang,China,59571.0,201705577290.0
+169,2,ERICA,MATTHEWS,ERICA.MATTHEWS@sakilacustomer.org,0,1294 Firozabad Drive,Jiangxi,Pingxiang,China,70618.0,161801569569.0
+170,1,BEATRICE,ARNOLD,BEATRICE.ARNOLD@sakilacustomer.org,1,1877 Ezhou Lane,Rajasthan,Udaipur,India,63337.0,264541743403.0
+171,2,DOLORES,WAGNER,DOLORES.WAGNER@sakilacustomer.org,1,316 Uruapan Street,Perak,Ipoh,Malaysia,58194.0,275788967899.0
+172,1,BERNICE,WILLIS,BERNICE.WILLIS@sakilacustomer.org,1,29 Pyongyang Loop,Batman,Batman,Turkey,47753.0,734780743462.0
+173,1,AUDREY,RAY,AUDREY.RAY@sakilacustomer.org,1,1010 Klerksdorp Way,Steiermark,Graz,Austria,6802.0,493008546874.0
+174,2,YVONNE,WATKINS,YVONNE.WATKINS@sakilacustomer.org,1,1848 Salala Boulevard,Miranda,Ocumare del Tuy,Venezuela,25220.0,48265851133.0
+175,1,ANNETTE,OLSON,ANNETTE.OLSON@sakilacustomer.org,1,431 Xiangtan Avenue,Kerala,Allappuzha (Alleppey),India,4854.0,230250973122.0
+176,1,JUNE,CARROLL,JUNE.CARROLL@sakilacustomer.org,1,757 Rustenburg Avenue,Skikda,Skikda,Algeria,89668.0,506134035434.0
+177,2,SAMANTHA,DUNCAN,SAMANTHA.DUNCAN@sakilacustomer.org,1,146 Johannesburg Way,Tamaulipas,Matamoros,Mexico,54132.0,953689007081.0
+178,2,MARION,SNYDER,MARION.SNYDER@sakilacustomer.org,1,1891 Rizhao Boulevard,So Paulo,Santa Brbara dOeste,Brazil,47288.0,391065549876.0
+179,1,DANA,HART,DANA.HART@sakilacustomer.org,1,1089 Iwatsuki Avenue,Kirov,Kirovo-Tepetsk,Russian Federation,35109.0,866092335135.0
+180,2,STACY,CUNNINGHAM,STACY.CUNNINGHAM@sakilacustomer.org,1,1410 Benin City Parkway,Risaralda,Pereira,Colombia,29747.0,104150372603.0
+181,2,ANA,BRADLEY,ANA.BRADLEY@sakilacustomer.org,1,682 Garden Grove Place,Tennessee,Memphis,United States,67497.0,72136330362.0
+182,1,RENEE,LANE,RENEE.LANE@sakilacustomer.org,1,533 al-Ayn Boulevard,California,Compton,United States,8862.0,662227486184.0
+183,2,IDA,ANDREWS,IDA.ANDREWS@sakilacustomer.org,1,1839 Szkesfehrvr Parkway,Gois,Luzinia,Brazil,55709.0,947468818183.0
+184,1,VIVIAN,RUIZ,VIVIAN.RUIZ@sakilacustomer.org,1,741 Ambattur Manor,Noord-Brabant,s-Hertogenbosch,Netherlands,43310.0,302590383819.0
+185,1,ROBERTA,HARPER,ROBERTA.HARPER@sakilacustomer.org,1,927 Barcelona Street,Chaharmahal va Bakht,Shahr-e Kord,Iran,65121.0,951486492670.0
+186,2,HOLLY,FOX,HOLLY.FOX@sakilacustomer.org,1,435 0 Way,West Bengali,Haldia,India,74750.0,760171523969.0
+187,2,BRITTANY,RILEY,BRITTANY.RILEY@sakilacustomer.org,1,140 Chiayi Parkway,Sumy,Sumy,Ukraine,38982.0,855863906434.0
+188,1,MELANIE,ARMSTRONG,MELANIE.ARMSTRONG@sakilacustomer.org,1,1166 Changhwa Street,Caraga,Bayugan,Philippines,58852.0,650752094490.0
+189,1,LORETTA,CARPENTER,LORETTA.CARPENTER@sakilacustomer.org,1,891 Novi Sad Manor,Ontario,Oshawa,Canada,5379.0,247646995453.0
+190,2,YOLANDA,WEAVER,YOLANDA.WEAVER@sakilacustomer.org,1,605 Rio Claro Parkway,Tabora,Tabora,Tanzania,49348.0,352469351088.0
+191,1,JEANETTE,GREENE,JEANETTE.GREENE@sakilacustomer.org,1,1077 San Felipe de Puerto Plata Place,Rostov-na-Donu,Novoterkassk,Russian Federation,65387.0,812824036424.0
+192,1,LAURIE,LAWRENCE,LAURIE.LAWRENCE@sakilacustomer.org,1,9 San Miguel de Tucumn Manor,Uttar Pradesh,Firozabad,India,90845.0,956188728558.0
+193,2,KATIE,ELLIOTT,KATIE.ELLIOTT@sakilacustomer.org,1,447 Surakarta Loop,Nyanza,Kisumu,Kenya,10428.0,940830176580.0
+194,2,KRISTEN,CHAVEZ,KRISTEN.CHAVEZ@sakilacustomer.org,1,345 Oshawa Boulevard,Tokyo-to,Hino,Japan,32114.0,104491201771.0
+195,1,VANESSA,SIMS,VANESSA.SIMS@sakilacustomer.org,1,1792 Valle de la Pascua Place,Nordrhein-Westfalen,Siegen,Germany,15540.0,419419591240.0
+196,1,ALMA,AUSTIN,ALMA.AUSTIN@sakilacustomer.org,1,1074 Binzhou Manor,Baden-Wrttemberg,Mannheim,Germany,36490.0,331132568928.0
+197,2,SUE,PETERS,SUE.PETERS@sakilacustomer.org,1,817 Bradford Loop,Jiangsu,Changzhou,China,89459.0,264286442804.0
+198,2,ELSIE,KELLEY,ELSIE.KELLEY@sakilacustomer.org,1,955 Bamenda Way,Ondo & Ekiti,Ikerre,Nigeria,1545.0,768481779568.0
+199,2,BETH,FRANKLIN,BETH.FRANKLIN@sakilacustomer.org,1,1149 A Corua (La Corua) Boulevard,Haiphong,Haiphong,Vietnam,95824.0,470884141195.0
+200,2,JEANNE,LAWSON,JEANNE.LAWSON@sakilacustomer.org,1,387 Mwene-Ditu Drive,Ahal,Ashgabat,Turkmenistan,8073.0,764477681869.0
+201,1,VICKI,FIELDS,VICKI.FIELDS@sakilacustomer.org,1,68 Molodetno Manor,Nordrhein-Westfalen,Witten,Germany,4662.0,146640639760.0
+202,2,CARLA,GUTIERREZ,CARLA.GUTIERREZ@sakilacustomer.org,1,642 Nador Drive,Maharashtra,Bhusawal,India,3924.0,369050085652.0
+203,1,TARA,RYAN,TARA.RYAN@sakilacustomer.org,1,1688 Nador Lane,Sulawesi Utara,Gorontalo,Indonesia,61613.0,652218196731.0
+204,1,ROSEMARY,SCHMIDT,ROSEMARY.SCHMIDT@sakilacustomer.org,1,1215 Pyongyang Parkway,Usak,Usak,Turkey,25238.0,646237101779.0
+205,2,EILEEN,CARR,EILEEN.CARR@sakilacustomer.org,1,1679 Antofagasta Street,Alto Paran,Ciudad del Este,Paraguay,86599.0,905903574913.0
+206,1,TERRI,VASQUEZ,TERRI.VASQUEZ@sakilacustomer.org,1,1304 s-Hertogenbosch Way,Santa Catarina,Blumenau,Brazil,10925.0,90336226227.0
+207,1,GERTRUDE,CASTILLO,GERTRUDE.CASTILLO@sakilacustomer.org,1,850 Salala Loop,Kitaa,Nuuk,Greenland,10800.0,403404780639.0
+208,1,LUCY,WHEELER,LUCY.WHEELER@sakilacustomer.org,1,624 Oshawa Boulevard,West Bengali,Balurghat,India,89959.0,49677664184.0
+209,2,TONYA,CHAPMAN,TONYA.CHAPMAN@sakilacustomer.org,1,43 Dadu Avenue,Rajasthan,Bhilwara,India,4855.0,95666951770.0
+210,2,ELLA,OLIVER,ELLA.OLIVER@sakilacustomer.org,1,751 Lima Loop,Aden,Aden,Yemen,99405.0,756460337785.0
+211,1,STACEY,MONTGOMERY,STACEY.MONTGOMERY@sakilacustomer.org,1,1333 Haldia Street,Jilin,Fuyu,China,82161.0,408304391718.0
+212,2,WILMA,RICHARDS,WILMA.RICHARDS@sakilacustomer.org,1,660 Jedda Boulevard,Washington,Bellevue,United States,25053.0,168758068397.0
+213,1,GINA,WILLIAMSON,GINA.WILLIAMSON@sakilacustomer.org,1,1001 Miyakonojo Lane,Taizz,Taizz,Yemen,67924.0,584316724815.0
+214,1,KRISTIN,JOHNSTON,KRISTIN.JOHNSTON@sakilacustomer.org,1,226 Brest Manor,California,Sunnyvale,United States,2299.0,785881412500.0
+215,2,JESSIE,BANKS,JESSIE.BANKS@sakilacustomer.org,1,1229 Valencia Parkway,Haskovo,Stara Zagora,Bulgaria,99124.0,352679173732.0
+216,1,NATALIE,MEYER,NATALIE.MEYER@sakilacustomer.org,1,1201 Qomsheh Manor,Gois,Aparecida de Goinia,Brazil,21464.0,873492228462.0
+217,2,AGNES,BISHOP,AGNES.BISHOP@sakilacustomer.org,1,866 Shivapuri Manor,Uttar Pradesh,Sambhal,India,22474.0,778502731092.0
+218,1,VERA,MCCOY,VERA.MCCOY@sakilacustomer.org,1,1168 Najafabad Parkway,Kabol,Kabul,Afghanistan,40301.0,886649065861.0
+219,2,WILLIE,HOWELL,WILLIE.HOWELL@sakilacustomer.org,1,1244 Allappuzha (Alleppey) Place,Buenos Aires,Vicente Lpez,Argentina,20657.0,991802825778.0
+220,2,CHARLENE,ALVAREZ,CHARLENE.ALVAREZ@sakilacustomer.org,1,1842 Luzinia Boulevard,Zanzibar West,Zanzibar,Tanzania,94420.0,706878974831.0
+221,1,BESSIE,MORRISON,BESSIE.MORRISON@sakilacustomer.org,1,1926 Gingoog Street,Sisilia,Syrakusa,Italy,22824.0,469738825391.0
+222,2,DELORES,HANSEN,DELORES.HANSEN@sakilacustomer.org,1,810 Palghat (Palakkad) Boulevard,Jaroslavl,Jaroslavl,Russian Federation,73431.0,516331171356.0
+223,1,MELINDA,FERNANDEZ,MELINDA.FERNANDEZ@sakilacustomer.org,1,1820 Maring Parkway,Punjab,Mandi Bahauddin,Pakistan,88307.0,99760893676.0
+224,2,PEARL,GARZA,PEARL.GARZA@sakilacustomer.org,1,60 Poos de Caldas Street,Rajasthan,Jodhpur,India,82338.0,963063788669.0
+225,1,ARLENE,HARVEY,ARLENE.HARVEY@sakilacustomer.org,1,1014 Loja Manor,Tamil Nadu,Ambattur,India,66851.0,460795526514.0
+226,2,MAUREEN,LITTLE,MAUREEN.LITTLE@sakilacustomer.org,1,201 Effon-Alaiye Way,Asuncin,Asuncin,Paraguay,64344.0,684192903087.0
+227,1,COLLEEN,BURTON,COLLEEN.BURTON@sakilacustomer.org,1,430 Alessandria Loop,Saarland,Saarbrcken,Germany,47446.0,669828224459.0
+228,2,ALLISON,STANLEY,ALLISON.STANLEY@sakilacustomer.org,1,754 Valencia Place,Phnom Penh,Phnom Penh,Cambodia,87911.0,594319417514.0
+229,1,TAMARA,NGUYEN,TAMARA.NGUYEN@sakilacustomer.org,1,356 Olomouc Manor,Gois,Anpolis,Brazil,93323.0,22326410776.0
+230,2,JOY,GEORGE,JOY.GEORGE@sakilacustomer.org,1,1256 Bislig Boulevard,Botosani,Botosani,Romania,50598.0,479007229460.0
+231,1,GEORGIA,JACOBS,GEORGIA.JACOBS@sakilacustomer.org,1,954 Kimchon Place,West Bengali,Uttarpara-Kotrung,India,42420.0,541327526474.0
+232,2,CONSTANCE,REID,CONSTANCE.REID@sakilacustomer.org,1,885 Yingkou Manor,Kaduna,Zaria,Nigeria,31390.0,588964509072.0
+233,2,LILLIE,KIM,LILLIE.KIM@sakilacustomer.org,1,1736 Cavite Place,Qina,Idfu,Egypt,98775.0,431770603551.0
+234,1,CLAUDIA,FULLER,CLAUDIA.FULLER@sakilacustomer.org,1,346 Skikda Parkway,Hawalli,Jalib al-Shuyukh,Kuwait,90628.0,630424482919.0
+235,1,JACKIE,LYNCH,JACKIE.LYNCH@sakilacustomer.org,1,98 Stara Zagora Boulevard,Valle,Buenaventura,Colombia,76448.0,610173756082.0
+236,1,MARCIA,DEAN,MARCIA.DEAN@sakilacustomer.org,1,1479 Rustenburg Boulevard,Southern Tagalog,Tanza,Philippines,18727.0,727785483194.0
+237,1,TANYA,GILBERT,TANYA.GILBERT@sakilacustomer.org,1,647 A Corua (La Corua) Street,Chollanam,Naju,South Korea,36971.0,792557457753.0
+238,1,NELLIE,GARRETT,NELLIE.GARRETT@sakilacustomer.org,1,1964 Gijn Manor,Karnataka,Shimoga,India,14408.0,918119601885.0
+239,2,MINNIE,ROMERO,MINNIE.ROMERO@sakilacustomer.org,1,47 Syktyvkar Lane,West Java,Ciomas,Indonesia,22236.0,63937119031.0
+240,1,MARLENE,WELCH,MARLENE.WELCH@sakilacustomer.org,1,1148 Saarbrcken Parkway,Fukushima,Iwaki,Japan,1921.0,137773001988.0
+241,2,HEIDI,LARSON,HEIDI.LARSON@sakilacustomer.org,0,1103 Bilbays Parkway,Hubei,Xiangfan,China,87660.0,279979529227.0
+242,1,GLENDA,FRAZIER,GLENDA.FRAZIER@sakilacustomer.org,1,1246 Boksburg Parkway,Hebei,Qinhuangdao,China,28349.0,890283544295.0
+243,1,LYDIA,BURKE,LYDIA.BURKE@sakilacustomer.org,1,1483 Pathankot Street,Tucumn,San Miguel de Tucumn,Argentina,37288.0,686015532180.0
+244,2,VIOLA,HANSON,VIOLA.HANSON@sakilacustomer.org,1,582 Papeete Loop,Central Visayas,Lapu-Lapu,Philippines,27722.0,569868543137.0
+245,1,COURTNEY,DAY,COURTNEY.DAY@sakilacustomer.org,1,300 Junan Street,Kyonggi,Uijongbu,South Korea,81314.0,890289150158.0
+246,1,MARIAN,MENDOZA,MARIAN.MENDOZA@sakilacustomer.org,1,829 Grand Prairie Way,Paran,Maring,Brazil,6461.0,741070712873.0
+247,1,STELLA,MORENO,STELLA.MORENO@sakilacustomer.org,1,1473 Changhwa Parkway,Mxico,Coacalco de Berriozbal,Mexico,75933.0,266798132374.0
+248,1,CAROLINE,BOWMAN,CAROLINE.BOWMAN@sakilacustomer.org,1,1309 Weifang Street,Florida,Tallahassee,United States,57338.0,435785045362.0
+249,2,DORA,MEDINA,DORA.MEDINA@sakilacustomer.org,1,1760 Oshawa Manor,Tianjin,Tianjin,China,38140.0,56257502250.0
+250,2,JO,FOWLER,JO.FOWLER@sakilacustomer.org,1,786 Stara Zagora Way,Oyo & Osun,Oyo,Nigeria,98332.0,716256596301.0
+251,2,VICKIE,BREWER,VICKIE.BREWER@sakilacustomer.org,1,1966 Tonghae Street,Anhalt Sachsen,Halle/Saale,Germany,36481.0,567359279425.0
+252,2,MATTIE,HOFFMAN,MATTIE.HOFFMAN@sakilacustomer.org,1,1497 Yuzhou Drive,England,London,United Kingdom,3433.0,246810237916.0
+253,1,TERRY,CARLSON,TERRY.CARLSON@sakilacustomer.org,1,752 Ondo Loop,Miyazaki,Miyakonojo,Japan,32474.0,134673576619.0
+254,2,MAXINE,SILVA,MAXINE.SILVA@sakilacustomer.org,1,1338 Zalantun Lane,Minas Gerais,Poos de Caldas,Brazil,45403.0,840522972766.0
+255,2,IRMA,PEARSON,IRMA.PEARSON@sakilacustomer.org,1,127 Iwakuni Boulevard,Central Luzon,Hagonoy,Philippines,20777.0,987442542471.0
+256,2,MABEL,HOLLAND,MABEL.HOLLAND@sakilacustomer.org,1,51 Laredo Avenue,Sagaing,Monywa,Myanmar,68146.0,884536620568.0
+257,2,MARSHA,DOUGLAS,MARSHA.DOUGLAS@sakilacustomer.org,1,771 Yaound Manor,Sofala,Beira,Mozambique,86768.0,245477603573.0
+258,1,MYRTLE,FLEMING,MYRTLE.FLEMING@sakilacustomer.org,1,532 Toulon Street,Santiago,Santiago de los Caballeros,Dominican Republic,69517.0,46871694740.0
+259,2,LENA,JENSEN,LENA.JENSEN@sakilacustomer.org,1,1027 Banjul Place,West Bengali,Halisahar,India,50390.0,538241037443.0
+260,1,CHRISTY,VARGAS,CHRISTY.VARGAS@sakilacustomer.org,1,1158 Mandi Bahauddin Parkway,Shanxi,Datong,China,98484.0,276555730211.0
+261,1,DEANNA,BYRD,DEANNA.BYRD@sakilacustomer.org,1,862 Xintai Lane,Cagayan Valley,Tuguegarao,Philippines,30065.0,265153400632.0
+262,2,PATSY,DAVIDSON,PATSY.DAVIDSON@sakilacustomer.org,1,816 Cayenne Parkway,Manab,Portoviejo,Ecuador,93629.0,282874611748.0
+263,1,HILDA,HOPKINS,HILDA.HOPKINS@sakilacustomer.org,1,1831 Nam Dinh Loop,National Capital Reg,Mandaluyong,Philippines,51990.0,322888976727.0
+264,1,GWENDOLYN,MAY,GWENDOLYN.MAY@sakilacustomer.org,1,446 Kirovo-Tepetsk Lane,Osaka,Higashiosaka,Japan,19428.0,303967439816.0
+265,2,JENNIE,TERRY,JENNIE.TERRY@sakilacustomer.org,1,682 Halisahar Place,Severn Morava,Olomouc,Czech Republic,20536.0,475553436330.0
+266,2,NORA,HERRERA,NORA.HERRERA@sakilacustomer.org,1,1587 Loja Manor,Salzburg,Salzburg,Austria,5410.0,621625204422.0
+267,1,MARGIE,WADE,MARGIE.WADE@sakilacustomer.org,1,1762 Paarl Parkway,Hunan,Lengshuijiang,China,53928.0,192459639410.0
+268,1,NINA,SOTO,NINA.SOTO@sakilacustomer.org,1,1519 Ilorin Place,Kerala,Palghat (Palakkad),India,49298.0,357445645426.0
+269,1,CASSANDRA,WALTERS,CASSANDRA.WALTERS@sakilacustomer.org,1,920 Kumbakonam Loop,California,Salinas,United States,75090.0,685010736240.0
+270,1,LEAH,CURTIS,LEAH.CURTIS@sakilacustomer.org,1,906 Goinia Way,Wielkopolskie,Kalisz,Poland,83565.0,701767622697.0
+271,1,PENNY,NEAL,PENNY.NEAL@sakilacustomer.org,0,1675 Xiangfan Manor,Tamil Nadu,Kumbakonam,India,11763.0,271149517630.0
+272,1,KAY,CALDWELL,KAY.CALDWELL@sakilacustomer.org,1,85 San Felipe de Puerto Plata Drive,Shandong,Yantai,China,46063.0,170739645687.0
+273,2,PRISCILLA,LOWE,PRISCILLA.LOWE@sakilacustomer.org,1,144 South Hill Loop,Guanajuato,Salamanca,Mexico,2012.0,45387294817.0
+274,1,NAOMI,JENNINGS,NAOMI.JENNINGS@sakilacustomer.org,1,1884 Shikarpur Avenue,Haryana,Karnal,India,85548.0,959949395183.0
+275,2,CAROLE,BARNETT,CAROLE.BARNETT@sakilacustomer.org,1,1980 Kamjanets-Podilskyi Street,Illinois,Peoria,United States,89502.0,874337098891.0
+276,1,BRANDY,GRAVES,BRANDY.GRAVES@sakilacustomer.org,1,1944 Bamenda Way,Michigan,Warren,United States,24645.0,75975221996.0
+277,2,OLGA,JIMENEZ,OLGA.JIMENEZ@sakilacustomer.org,1,556 Baybay Manor,Oyo & Osun,Ogbomosho,Nigeria,55802.0,363982224739.0
+278,2,BILLIE,HORTON,BILLIE.HORTON@sakilacustomer.org,1,457 Tongliao Loop,Bursa,Inegl,Turkey,56254.0,880756161823.0
+279,2,DIANNE,SHELTON,DIANNE.SHELTON@sakilacustomer.org,1,600 Bradford Street,East Azerbaidzan,Tabriz,Iran,96204.0,117592274996.0
+280,2,TRACEY,BARRETT,TRACEY.BARRETT@sakilacustomer.org,1,1006 Santa Brbara dOeste Manor,Ondo & Ekiti,Owo,Nigeria,36229.0,85059738746.0
+281,2,LEONA,OBRIEN,LEONA.OBRIEN@sakilacustomer.org,1,1308 Sumy Loop,Fujian,Fuzhou,China,30657.0,583021225407.0
+282,2,JENNY,CASTRO,JENNY.CASTRO@sakilacustomer.org,1,1405 Chisinau Place,Ponce,Ponce,Puerto Rico,8160.0,62781725285.0
+283,1,FELICIA,SUTTON,FELICIA.SUTTON@sakilacustomer.org,1,226 Halifax Street,Xinxiang,Korla,China,58492.0,790651020929.0
+284,1,SONIA,GREGORY,SONIA.GREGORY@sakilacustomer.org,1,1279 Udine Parkway,Edo & Delta,Benin City,Nigeria,75860.0,195003555232.0
+285,1,MIRIAM,MCKINNEY,MIRIAM.MCKINNEY@sakilacustomer.org,1,1336 Benin City Drive,Shiga,Otsu,Japan,46044.0,341242939532.0
+286,1,VELMA,LUCAS,VELMA.LUCAS@sakilacustomer.org,1,1155 Liaocheng Place,Oyo & Osun,Effon-Alaiye,Nigeria,22650.0,558236142492.0
+287,2,BECKY,MILES,BECKY.MILES@sakilacustomer.org,1,1993 Tabuk Lane,Tamil Nadu,Tambaram,India,64221.0,648482415405.0
+288,1,BOBBIE,CRAIG,BOBBIE.CRAIG@sakilacustomer.org,1,86 Higashiosaka Lane,Guanajuato,Valle de Santiago,Mexico,33768.0,957128697225.0
+289,1,VIOLET,RODRIQUEZ,VIOLET.RODRIQUEZ@sakilacustomer.org,1,1912 Allende Manor,Kowloon and New Kowl,Kowloon and New Kowloon,Hong Kong,58124.0,172262454487.0
+290,1,KRISTINA,CHAMBERS,KRISTINA.CHAMBERS@sakilacustomer.org,1,544 Tarsus Boulevard,Gurico,Valle de la Pascua,Venezuela,53145.0,892523334.0
+291,1,TONI,HOLT,TONI.HOLT@sakilacustomer.org,1,1936 Cuman Avenue,Virginia,Roanoke,United States,61195.0,976798660411.0
+292,2,MISTY,LAMBERT,MISTY.LAMBERT@sakilacustomer.org,1,1192 Tongliao Street,Sharja,Sharja,United Arab Emirates,19065.0,350970907017.0
+293,2,MAE,FLETCHER,MAE.FLETCHER@sakilacustomer.org,1,44 Najafabad Way,Baskimaa,Donostia-San Sebastin,Spain,61391.0,96604821070.0
+294,2,SHELLY,WATTS,SHELLY.WATTS@sakilacustomer.org,1,32 Pudukkottai Lane,Ohio,Dayton,United States,38834.0,967274728547.0
+295,1,DAISY,BATES,DAISY.BATES@sakilacustomer.org,1,661 Chisinau Lane,Pietari,Kolpino,Russian Federation,8856.0,816436065431.0
+296,2,RAMONA,HALE,RAMONA.HALE@sakilacustomer.org,1,951 Stara Zagora Manor,Punjab,Patiala,India,98573.0,429925609431.0
+297,1,SHERRI,RHODES,SHERRI.RHODES@sakilacustomer.org,1,922 Vila Velha Loop,Maharashtra,Ahmadnagar,India,4085.0,510737228015.0
+298,1,ERIKA,PENA,ERIKA.PENA@sakilacustomer.org,1,898 Jining Lane,Pohjois-Pohjanmaa,Oulu,Finland,40070.0,161643343536.0
+299,2,JAMES,GANNON,JAMES.GANNON@sakilacustomer.org,1,1635 Kuwana Boulevard,Hiroshima,Hiroshima,Japan,52137.0,710603868323.0
+300,1,JOHN,FARNSWORTH,JOHN.FARNSWORTH@sakilacustomer.org,1,41 El Alto Parkway,Maharashtra,Parbhani,India,56883.0,51917807050.0
+301,2,ROBERT,BAUGHMAN,ROBERT.BAUGHMAN@sakilacustomer.org,1,1883 Maikop Lane,Kaliningrad,Kaliningrad,Russian Federation,68469.0,96110042435.0
+302,1,MICHAEL,SILVERMAN,MICHAEL.SILVERMAN@sakilacustomer.org,1,1908 Gaziantep Place,Liaoning,Tiefa,China,58979.0,108053751300.0
+303,2,WILLIAM,SATTERFIELD,WILLIAM.SATTERFIELD@sakilacustomer.org,1,687 Alessandria Parkway,Sanaa,Sanaa,Yemen,57587.0,407218522294.0
+304,2,DAVID,ROYAL,DAVID.ROYAL@sakilacustomer.org,1,827 Yuncheng Drive,Callao,Callao,Peru,79047.0,504434452842.0
+305,1,RICHARD,MCCRARY,RICHARD.MCCRARY@sakilacustomer.org,1,913 Coacalco de Berriozbal Loop,Texas,Arlington,United States,42141.0,262088367001.0
+306,1,CHARLES,KOWALSKI,CHARLES.KOWALSKI@sakilacustomer.org,1,715 So Bernardo do Campo Lane,Kedah,Sungai Petani,Malaysia,84804.0,181179321332.0
+307,2,JOSEPH,JOY,JOSEPH.JOY@sakilacustomer.org,1,1354 Siegen Street,Rio de Janeiro,Angra dos Reis,Brazil,80184.0,573441801529.0
+308,1,THOMAS,GRIGSBY,THOMAS.GRIGSBY@sakilacustomer.org,1,1191 Sungai Petani Boulevard,Missouri,Kansas City,United States,9668.0,983259819766.0
+309,1,CHRISTOPHER,GRECO,CHRISTOPHER.GRECO@sakilacustomer.org,1,1224 Huejutla de Reyes Boulevard,Lombardia,Brescia,Italy,70923.0,806016930576.0
+310,2,DANIEL,CABRAL,DANIEL.CABRAL@sakilacustomer.org,1,543 Bergamo Avenue,Minas Gerais,Ibirit,Brazil,59686.0,103602195112.0
+311,2,PAUL,TROUT,PAUL.TROUT@sakilacustomer.org,1,746 Joliet Lane,Kursk,Kursk,Russian Federation,94878.0,688485191923.0
+312,2,MARK,RINEHART,MARK.RINEHART@sakilacustomer.org,1,780 Kimberley Way,Tabuk,Tabuk,Saudi Arabia,17032.0,824396883951.0
+313,2,DONALD,MAHON,DONALD.MAHON@sakilacustomer.org,1,1774 Yaound Place,Hubei,Ezhou,China,91400.0,613124286867.0
+314,1,GEORGE,LINTON,GEORGE.LINTON@sakilacustomer.org,1,1957 Yantai Lane,So Paulo,Sorocaba,Brazil,59255.0,704948322302.0
+315,2,KENNETH,GOODEN,KENNETH.GOODEN@sakilacustomer.org,0,1542 Lubumbashi Boulevard,Tel Aviv,Bat Yam,Israel,62472.0,508800331065.0
+316,1,STEVEN,CURLEY,STEVEN.CURLEY@sakilacustomer.org,1,651 Pathankot Loop,Maharashtra,Miraj,India,59811.0,139378397418.0
+317,2,EDWARD,BAUGH,EDWARD.BAUGH@sakilacustomer.org,1,1359 Zhoushan Parkway,Streymoyar,Trshavn,Faroe Islands,29763.0,46568045367.0
+318,1,BRIAN,WYMAN,BRIAN.WYMAN@sakilacustomer.org,1,1769 Iwaki Lane,Kujawsko-Pomorskie,Bydgoszcz,Poland,25787.0,556100547674.0
+319,2,RONALD,WEINER,RONALD.WEINER@sakilacustomer.org,1,1145 Vilnius Manor,Mxico,San Felipe del Progreso,Mexico,73170.0,674805712553.0
+320,2,ANTHONY,SCHWAB,ANTHONY.SCHWAB@sakilacustomer.org,1,1892 Nabereznyje Telny Lane,Tutuila,Tafuna,American Samoa,28396.0,478229987054.0
+321,1,KEVIN,SCHULER,KEVIN.SCHULER@sakilacustomer.org,1,470 Boksburg Street,Central,Birgunj,Nepal,97960.0,908029859266.0
+322,1,JASON,MORRISSEY,JASON.MORRISSEY@sakilacustomer.org,1,1427 A Corua (La Corua) Place,Buenos Aires,Baha Blanca,Argentina,85799.0,972574862516.0
+323,2,MATTHEW,MAHAN,MATTHEW.MAHAN@sakilacustomer.org,1,479 San Felipe del Progreso Avenue,Morelos,Cuautla,Mexico,54949.0,869051782691.0
+324,2,GARY,COY,GARY.COY@sakilacustomer.org,1,867 Benin City Avenue,Henan,Yuzhou,China,78543.0,168884817145.0
+325,1,TIMOTHY,BUNN,TIMOTHY.BUNN@sakilacustomer.org,1,981 Kumbakonam Place,Distrito Federal,Braslia,Brazil,87611.0,829116184079.0
+326,1,JOSE,ANDREW,JOSE.ANDREW@sakilacustomer.org,1,1016 Iwakuni Street,St George,Kingstown,Saint Vincent and the Grenadines,49833.0,961370847344.0
+327,2,LARRY,THRASHER,LARRY.THRASHER@sakilacustomer.org,1,663 Baha Blanca Parkway,Adana,Adana,Turkey,33463.0,834418779292.0
+328,2,JEFFREY,SPEAR,JEFFREY.SPEAR@sakilacustomer.org,1,1860 Taguig Loop,West Java,Ciparay,Indonesia,59550.0,38158430589.0
+329,2,FRANK,WAGGONER,FRANK.WAGGONER@sakilacustomer.org,1,1816 Bydgoszcz Loop,Dhaka,Jamalpur,Bangladesh,64308.0,965273813662.0
+330,1,SCOTT,SHELLEY,SCOTT.SHELLEY@sakilacustomer.org,1,587 Benguela Manor,Illinois,Aurora,United States,91590.0,165450987037.0
+331,1,ERIC,ROBERT,ERIC.ROBERT@sakilacustomer.org,1,430 Kumbakonam Drive,Santa F,Santa F,Argentina,28814.0,105470691550.0
+332,1,STEPHEN,QUALLS,STEPHEN.QUALLS@sakilacustomer.org,1,1838 Tabriz Lane,Dhaka,Dhaka,Bangladesh,1195.0,38988715447.0
+333,2,ANDREW,PURDY,ANDREW.PURDY@sakilacustomer.org,1,431 Szkesfehrvr Avenue,Baki,Baku,Azerbaijan,57828.0,119501405123.0
+334,2,RAYMOND,MCWHORTER,RAYMOND.MCWHORTER@sakilacustomer.org,1,503 Sogamoso Loop,Sumqayit,Sumqayit,Azerbaijan,49812.0,834626715837.0
+335,1,GREGORY,MAULDIN,GREGORY.MAULDIN@sakilacustomer.org,1,507 Smolensk Loop,Sousse,Sousse,Tunisia,22971.0,80303246192.0
+336,1,JOSHUA,MARK,JOSHUA.MARK@sakilacustomer.org,1,1920 Weifang Avenue,Uttar Pradesh,Rampur,India,15643.0,869507847714.0
+337,1,JERRY,JORDON,JERRY.JORDON@sakilacustomer.org,1,124 al-Manama Way,Hiroshima,Onomichi,Japan,52368.0,647899404952.0
+338,1,DENNIS,GILMAN,DENNIS.GILMAN@sakilacustomer.org,1,1443 Mardan Street,Western Cape,Paarl,South Africa,31483.0,231383037471.0
+339,2,WALTER,PERRYMAN,WALTER.PERRYMAN@sakilacustomer.org,1,1909 Benguela Lane,Henan,Xinxiang,China,19913.0,624138001031.0
+340,1,PATRICK,NEWSOM,PATRICK.NEWSOM@sakilacustomer.org,1,68 Ponce Parkway,Hanoi,Hanoi,Vietnam,85926.0,870635127812.0
+341,1,PETER,MENARD,PETER.MENARD@sakilacustomer.org,1,1217 Konotop Avenue,Gelderland,Ede,Netherlands,504.0,718917251754.0
+342,1,HAROLD,MARTINO,HAROLD.MARTINO@sakilacustomer.org,1,1293 Nam Dinh Way,Roraima,Boa Vista,Brazil,71583.0,697656479977.0
+343,1,DOUGLAS,GRAF,DOUGLAS.GRAF@sakilacustomer.org,1,785 Vaduz Street,Baja California,Mexicali,Mexico,36170.0,895616862749.0
+344,1,HENRY,BILLINGSLEY,HENRY.BILLINGSLEY@sakilacustomer.org,1,1516 Escobar Drive,Tongatapu,Nukualofa,Tonga,46069.0,64536069371.0
+345,1,CARL,ARTIS,CARL.ARTIS@sakilacustomer.org,1,1628 Nagareyama Lane,Central,San Lorenzo,Paraguay,60079.0,20064292617.0
+346,1,ARTHUR,SIMPKINS,ARTHUR.SIMPKINS@sakilacustomer.org,1,1157 Nyeri Loop,Adygea,Maikop,Russian Federation,56380.0,262744791493.0
+347,2,RYAN,SALISBURY,RYAN.SALISBURY@sakilacustomer.org,1,1673 Tangail Drive,Daugavpils,Daugavpils,Latvia,26857.0,627924259271.0
+348,2,ROGER,QUINTANILLA,ROGER.QUINTANILLA@sakilacustomer.org,1,381 Kabul Way,Taipei,Hsichuh,Taiwan,87272.0,55477302294.0
+349,2,JOE,GILLILAND,JOE.GILLILAND@sakilacustomer.org,1,953 Hodeida Street,Southern Tagalog,Imus,Philippines,18841.0,53912826864.0
+350,1,JUAN,FRALEY,JUAN.FRALEY@sakilacustomer.org,1,469 Nakhon Sawan Street,Tuvassia,Teboksary,Russian Federation,58866.0,689199636560.0
+351,1,JACK,FOUST,JACK.FOUST@sakilacustomer.org,1,1378 Beira Loop,Krasnojarsk,Zeleznogorsk,Russian Federation,40792.0,840957664136.0
+352,1,ALBERT,CROUSE,ALBERT.CROUSE@sakilacustomer.org,1,1641 Changhwa Place,Nord-Ouest,Bamenda,Cameroon,37636.0,256546485220.0
+353,1,JONATHAN,SCARBOROUGH,JONATHAN.SCARBOROUGH@sakilacustomer.org,1,1698 Southport Loop,Hidalgo,Pachuca de Soto,Mexico,49009.0,754358349853.0
+354,2,JUSTIN,NGO,JUSTIN.NGO@sakilacustomer.org,1,519 Nyeri Manor,So Paulo,Santo Andr,Brazil,37650.0,764680915323.0
+355,2,TERRY,GRISSOM,TERRY.GRISSOM@sakilacustomer.org,1,619 Hunuco Avenue,Shimane,Matsue,Japan,81508.0,142596392389.0
+356,2,GERALD,FULTZ,GERALD.FULTZ@sakilacustomer.org,1,45 Aparecida de Goinia Place,Madhya Pradesh,Satna,India,7431.0,650496654258.0
+357,1,KEITH,RICO,KEITH.RICO@sakilacustomer.org,1,482 Kowloon and New Kowloon Manor,Bratislava,Bratislava,Slovakia,97056.0,738968474939.0
+358,2,SAMUEL,MARLOW,SAMUEL.MARLOW@sakilacustomer.org,1,604 Bern Place,Jharkhand,Ranchi,India,5373.0,620719383725.0
+359,2,WILLIE,MARKHAM,WILLIE.MARKHAM@sakilacustomer.org,1,1623 Kingstown Drive,Buenos Aires,Almirante Brown,Argentina,91299.0,296394569728.0
+360,2,RALPH,MADRIGAL,RALPH.MADRIGAL@sakilacustomer.org,1,1009 Zanzibar Lane,Arecibo,Arecibo,Puerto Rico,64875.0,102396298916.0
+361,2,LAWRENCE,LAWTON,LAWRENCE.LAWTON@sakilacustomer.org,1,114 Jalib al-Shuyukh Manor,Centre,Yaound,Cameroon,60440.0,845378657301.0
+362,1,NICHOLAS,BARFIELD,NICHOLAS.BARFIELD@sakilacustomer.org,1,1163 London Parkway,Par,Belm,Brazil,6066.0,675120358494.0
+363,2,ROY,WHITING,ROY.WHITING@sakilacustomer.org,1,1658 Jastrzebie-Zdrj Loop,Central,Nyeri,Kenya,96584.0,568367775448.0
+364,1,BENJAMIN,VARNEY,BENJAMIN.VARNEY@sakilacustomer.org,1,817 Laredo Avenue,Jalisco,Guadalajara,Mexico,77449.0,151249681135.0
+365,2,BRUCE,SCHWARZ,BRUCE.SCHWARZ@sakilacustomer.org,1,1565 Tangail Manor,Okinawa,Okinawa,Japan,45750.0,634445428822.0
+366,1,BRANDON,HUEY,BRANDON.HUEY@sakilacustomer.org,1,1912 Emeishan Drive,Balikesir,Balikesir,Turkey,33050.0,99883471275.0
+367,1,ADAM,GOOCH,ADAM.GOOCH@sakilacustomer.org,1,230 Urawa Drive,Andhra Pradesh,Adoni,India,2738.0,166898395731.0
+368,1,HARRY,ARCE,HARRY.ARCE@sakilacustomer.org,0,1922 Miraj Way,Esfahan,Najafabad,Iran,13203.0,320471479776.0
+369,2,FRED,WHEAT,FRED.WHEAT@sakilacustomer.org,1,433 Florencia Street,Chihuahua,Jurez,Mexico,91330.0,561729882725.0
+370,2,WAYNE,TRUONG,WAYNE.TRUONG@sakilacustomer.org,1,1049 Matamoros Parkway,Karnataka,Gulbarga,India,69640.0,960505250340.0
+371,1,BILLY,POULIN,BILLY.POULIN@sakilacustomer.org,1,1061 Ede Avenue,Southern Tagalog,Cabuyao,Philippines,57810.0,333390595558.0
+372,2,STEVE,MACKENZIE,STEVE.MACKENZIE@sakilacustomer.org,1,154 Oshawa Manor,East Java,Probolinggo,Indonesia,72771.0,440365973660.0
+373,1,LOUIS,LEONE,LOUIS.LEONE@sakilacustomer.org,1,1191 Tandil Drive,Southern Tagalog,Tanauan,Philippines,6362.0,45554316010.0
+374,2,JEREMY,HURTADO,JEREMY.HURTADO@sakilacustomer.org,1,1133 Rizhao Avenue,Pernambuco,Vitria de Santo Anto,Brazil,2800.0,600264533987.0
+375,2,AARON,SELBY,AARON.SELBY@sakilacustomer.org,1,1519 Santiago de los Caballeros Loop,East Kasai,Mwene-Ditu,"Congo, The Democratic Republic of the",22025.0,409315295763.0
+376,1,RANDY,GAITHER,RANDY.GAITHER@sakilacustomer.org,1,1618 Olomouc Manor,Kurgan,Kurgan,Russian Federation,26385.0,96846695220.0
+377,1,HOWARD,FORTNER,HOWARD.FORTNER@sakilacustomer.org,1,220 Hidalgo Drive,Kermanshah,Kermanshah,Iran,45298.0,342720754566.0
+378,1,EUGENE,CULPEPPER,EUGENE.CULPEPPER@sakilacustomer.org,1,686 Donostia-San Sebastin Lane,Guangdong,Shenzhen,China,97390.0,71857599858.0
+379,1,CARLOS,COUGHLIN,CARLOS.COUGHLIN@sakilacustomer.org,1,97 Mogiljov Lane,Gujarat,Bhavnagar,India,89294.0,924815207181.0
+380,1,RUSSELL,BRINSON,RUSSELL.BRINSON@sakilacustomer.org,1,1642 Charlotte Amalie Drive,Slaskie,Tychy,Poland,75442.0,821476736117.0
+381,2,BOBBY,BOUDREAU,BOBBY.BOUDREAU@sakilacustomer.org,1,1368 Maracabo Boulevard,No district,South Hill,Anguilla,32716.0,934352415130.0
+382,2,VICTOR,BARKLEY,VICTOR.BARKLEY@sakilacustomer.org,1,401 Sucre Boulevard,New Hampshire,Manchester,United States,25007.0,486395999608.0
+383,1,MARTIN,BALES,MARTIN.BALES@sakilacustomer.org,1,368 Hunuco Boulevard,Namibe,Namibe,Angola,17165.0,106439158941.0
+384,2,ERNEST,STEPP,ERNEST.STEPP@sakilacustomer.org,1,500 Lincoln Parkway,Jiangsu,Huaian,China,95509.0,550306965159.0
+385,1,PHILLIP,HOLM,PHILLIP.HOLM@sakilacustomer.org,1,102 Chapra Drive,Ibaragi,Tama,Japan,14073.0,776031833752.0
+386,1,TODD,TAN,TODD.TAN@sakilacustomer.org,1,1793 Meixian Place,Hmelnytskyi,Kamjanets-Podilskyi,Ukraine,33535.0,619966287415.0
+387,2,JESSE,SCHILLING,JESSE.SCHILLING@sakilacustomer.org,1,514 Ife Way,Shaba,Lubumbashi,"Congo, The Democratic Republic of the",69973.0,900235712074.0
+388,2,CRAIG,MORRELL,CRAIG.MORRELL@sakilacustomer.org,1,717 Changzhou Lane,Southern Tagalog,Cavite,Philippines,21615.0,426255288071.0
+389,1,ALAN,KAHN,ALAN.KAHN@sakilacustomer.org,1,753 Ilorin Avenue,Sichuan,Emeishan,China,3656.0,464511145118.0
+390,1,SHAWN,HEATON,SHAWN.HEATON@sakilacustomer.org,1,1337 Mit Ghamr Avenue,Nakhon Sawan,Nakhon Sawan,Thailand,29810.0,175283210378.0
+391,1,CLARENCE,GAMEZ,CLARENCE.GAMEZ@sakilacustomer.org,1,767 Pyongyang Drive,Osaka,Izumisano,Japan,83536.0,667736124769.0
+392,2,SEAN,DOUGLASS,SEAN.DOUGLASS@sakilacustomer.org,1,614 Pak Kret Street,Addis Abeba,Addis Abeba,Ethiopia,27796.0,47808359842.0
+393,1,PHILIP,CAUSEY,PHILIP.CAUSEY@sakilacustomer.org,1,954 Lapu-Lapu Way,Moskova,Korolev,Russian Federation,8816.0,737229003916.0
+394,2,CHRIS,BROTHERS,CHRIS.BROTHERS@sakilacustomer.org,1,331 Bydgoszcz Parkway,Asturia,Gijn,Spain,966.0,537374465982.0
+395,2,JOHNNY,TURPIN,JOHNNY.TURPIN@sakilacustomer.org,1,1152 Citrus Heights Manor,al-Qadarif,al-Qadarif,Sudan,5239.0,765957414528.0
+396,1,EARL,SHANKS,EARL.SHANKS@sakilacustomer.org,1,168 Cianjur Manor,Saitama,Iwatsuki,Japan,73824.0,679095087143.0
+397,1,JIMMY,SCHRADER,JIMMY.SCHRADER@sakilacustomer.org,1,616 Hagonoy Avenue,Krasnojarsk,Atinsk,Russian Federation,46043.0,604177838256.0
+398,1,ANTONIO,MEEK,ANTONIO.MEEK@sakilacustomer.org,1,1190 0 Place,Rio Grande do Sul,Bag,Brazil,10417.0,841876514789.0
+399,1,DANNY,ISOM,DANNY.ISOM@sakilacustomer.org,1,734 Bchar Place,Punjab,Okara,Pakistan,30586.0,280578750435.0
+400,2,BRYAN,HARDISON,BRYAN.HARDISON@sakilacustomer.org,1,530 Lausanne Lane,Texas,Dallas,United States,11067.0,775235029633.0
+401,2,TONY,CARRANZA,TONY.CARRANZA@sakilacustomer.org,1,454 Patiala Lane,Fukushima,Koriyama,Japan,13496.0,794553031307.0
+402,1,LUIS,YANEZ,LUIS.YANEZ@sakilacustomer.org,1,1346 Mysore Drive,Bretagne,Brest,France,61507.0,516647474029.0
+403,1,MIKE,WAY,MIKE.WAY@sakilacustomer.org,1,990 Etawah Loop,Tamil Nadu,Valparai,India,79940.0,206169448769.0
+404,2,STANLEY,SCROGGINS,STANLEY.SCROGGINS@sakilacustomer.org,1,1266 Laredo Parkway,Saitama,Omiya,Japan,7664.0,1483365694.0
+405,1,LEONARD,SCHOFIELD,LEONARD.SCHOFIELD@sakilacustomer.org,1,88 Nagaon Manor,Buenos Aires,Tandil,Argentina,86868.0,779461480495.0
+406,1,NATHAN,RUNYON,NATHAN.RUNYON@sakilacustomer.org,0,264 Bhimavaram Manor,St Thomas,Charlotte Amalie,"Virgin Islands, U.S.",54749.0,302526949177.0
+407,1,DALE,RATCLIFF,DALE.RATCLIFF@sakilacustomer.org,1,1639 Saarbrcken Drive,North West,Rustenburg,South Africa,9827.0,328494873422.0
+408,1,MANUEL,MURRELL,MANUEL.MURRELL@sakilacustomer.org,1,692 Amroha Drive,Northern,Jaffna,Sri Lanka,35575.0,359478883004.0
+409,2,RODNEY,MOELLER,RODNEY.MOELLER@sakilacustomer.org,1,1936 Lapu-Lapu Parkway,Bauchi & Gombe,Deba Habe,Nigeria,7122.0,653436985797.0
+410,2,CURTIS,IRBY,CURTIS.IRBY@sakilacustomer.org,1,432 Garden Grove Street,Ontario,Richmond Hill,Canada,65630.0,615964523510.0
+411,1,NORMAN,CURRIER,NORMAN.CURRIER@sakilacustomer.org,1,1445 Carmen Parkway,West Java,Cianjur,Indonesia,70809.0,598912394463.0
+412,2,ALLEN,BUTTERFIELD,ALLEN.BUTTERFIELD@sakilacustomer.org,1,791 Salinas Street,Punjab,Hoshiarpur,India,40509.0,129953030512.0
+413,2,MARVIN,YEE,MARVIN.YEE@sakilacustomer.org,1,126 Acua Parkway,West Bengali,Berhampore (Baharampur),India,58888.0,480039662421.0
+414,1,VINCENT,RALSTON,VINCENT.RALSTON@sakilacustomer.org,1,397 Sunnyvale Avenue,Guanajuato,Allende,Mexico,55566.0,680851640676.0
+415,1,GLENN,PULLEN,GLENN.PULLEN@sakilacustomer.org,1,992 Klerksdorp Loop,Utrecht,Amersfoort,Netherlands,33711.0,855290087237.0
+416,2,JEFFERY,PINSON,JEFFERY.PINSON@sakilacustomer.org,1,966 Arecibo Loop,Sind,Dadu,Pakistan,94018.0,15273765306.0
+417,1,TRAVIS,ESTEP,TRAVIS.ESTEP@sakilacustomer.org,1,289 Santo Andr Manor,al-Sharqiya,al-Qatif,Saudi Arabia,72410.0,214976066017.0
+418,2,JEFF,EAST,JEFF.EAST@sakilacustomer.org,1,437 Chungho Drive,Puerto Plata,San Felipe de Puerto Plata,Dominican Republic,59489.0,491271355190.0
+419,1,CHAD,CARBONE,CHAD.CARBONE@sakilacustomer.org,1,1948 Bayugan Parkway,Bihar,Katihar,India,60622.0,987306329957.0
+420,1,JACOB,LANCE,JACOB.LANCE@sakilacustomer.org,1,1866 al-Qatif Avenue,California,El Monte,United States,89420.0,546793516940.0
+421,1,LEE,HAWKS,LEE.HAWKS@sakilacustomer.org,1,1661 Abha Drive,Tamil Nadu,Pudukkottai,India,14400.0,270456873752.0
+422,1,MELVIN,ELLINGTON,MELVIN.ELLINGTON@sakilacustomer.org,1,1557 Cape Coral Parkway,Hubei,Laohekou,China,46875.0,368284120423.0
+423,2,ALFRED,CASILLAS,ALFRED.CASILLAS@sakilacustomer.org,1,1727 Matamoros Place,Sawhaj,Sawhaj,Egypt,78813.0,129673677866.0
+424,2,KYLE,SPURLOCK,KYLE.SPURLOCK@sakilacustomer.org,1,1269 Botosani Manor,Guangdong,Shanwei,China,47394.0,736517327853.0
+425,2,FRANCIS,SIKES,FRANCIS.SIKES@sakilacustomer.org,1,355 Vitria de Santo Anto Way,Oaxaca,San Juan Bautista Tuxtepec,Mexico,81758.0,548003849552.0
+426,1,BRADLEY,MOTLEY,BRADLEY.MOTLEY@sakilacustomer.org,1,1596 Acua Parkway,Jharkhand,Purnea (Purnia),India,70425.0,157133457169.0
+427,2,JESUS,MCCARTNEY,JESUS.MCCARTNEY@sakilacustomer.org,1,259 Ipoh Drive,So Paulo,Guaruj,Brazil,64964.0,419009857119.0
+428,2,HERBERT,KRUGER,HERBERT.KRUGER@sakilacustomer.org,1,1823 Hoshiarpur Lane,Komi,Syktyvkar,Russian Federation,33191.0,307133768620.0
+429,2,FREDERICK,ISBELL,FREDERICK.ISBELL@sakilacustomer.org,1,1404 Taguig Drive,Okayama,Tsuyama,Japan,87212.0,572068624538.0
+430,1,RAY,HOULE,RAY.HOULE@sakilacustomer.org,1,740 Udaipur Lane,Nizni Novgorod,Dzerzinsk,Russian Federation,33505.0,497288595103.0
+431,2,JOEL,FRANCISCO,JOEL.FRANCISCO@sakilacustomer.org,1,287 Cuautla Boulevard,Chuquisaca,Sucre,Bolivia,72736.0,82619513349.0
+432,1,EDWIN,BURK,EDWIN.BURK@sakilacustomer.org,1,1766 Almirante Brown Street,KwaZulu-Natal,Newcastle,South Africa,63104.0,617567598243.0
+433,1,DON,BONE,DON.BONE@sakilacustomer.org,1,596 Huixquilucan Place,Nampula,Naala-Porto,Mozambique,65892.0,342709348083.0
+434,1,EDDIE,TOMLIN,EDDIE.TOMLIN@sakilacustomer.org,1,1351 Aparecida de Goinia Parkway,Northern Mindanao,Ozamis,Philippines,41775.0,959834530529.0
+435,2,RICKY,SHELBY,RICKY.SHELBY@sakilacustomer.org,1,722 Bradford Lane,Shandong,Junan,China,90920.0,746251338300.0
+436,1,TROY,QUIGLEY,TROY.QUIGLEY@sakilacustomer.org,1,983 Santa F Way,British Colombia,Vancouver,Canada,47472.0,145720452260.0
+437,2,RANDALL,NEUMANN,RANDALL.NEUMANN@sakilacustomer.org,1,1245 Ibirit Way,La Romana,La Romana,Dominican Republic,40926.0,331888642162.0
+438,1,BARRY,LOVELACE,BARRY.LOVELACE@sakilacustomer.org,1,1836 Korla Parkway,Copperbelt,Kitwe,Zambia,55405.0,689681677428.0
+439,2,ALEXANDER,FENNELL,ALEXANDER.FENNELL@sakilacustomer.org,1,231 Kaliningrad Place,Lombardia,Bergamo,Italy,57833.0,575081026569.0
+440,1,BERNARD,COLBY,BERNARD.COLBY@sakilacustomer.org,1,495 Bhimavaram Lane,Maharashtra,Dhule (Dhulia),India,3.0,82088937724.0
+441,1,MARIO,CHEATHAM,MARIO.CHEATHAM@sakilacustomer.org,1,1924 Shimonoseki Drive,Batna,Batna,Algeria,52625.0,406784385440.0
+442,1,LEROY,BUSTAMANTE,LEROY.BUSTAMANTE@sakilacustomer.org,1,105 Dzerzinsk Manor,Inner Mongolia,Tongliao,China,48570.0,240776414296.0
+443,2,FRANCISCO,SKIDMORE,FRANCISCO.SKIDMORE@sakilacustomer.org,1,614 Denizli Parkway,Rio Grande do Sul,So Leopoldo,Brazil,29444.0,876491807547.0
+444,2,MARCUS,HIDALGO,MARCUS.HIDALGO@sakilacustomer.org,1,1289 Belm Boulevard,Tartumaa,Tartu,Estonia,88306.0,237368926031.0
+445,1,MICHEAL,FORMAN,MICHEAL.FORMAN@sakilacustomer.org,1,203 Tambaram Street,Buenos Aires,Escobar,Argentina,73942.0,411549550611.0
+446,2,THEODORE,CULP,THEODORE.CULP@sakilacustomer.org,0,1704 Tambaram Manor,West Bengali,Uluberia,India,2834.0,39463554936.0
+447,1,CLIFFORD,BOWENS,CLIFFORD.BOWENS@sakilacustomer.org,1,207 Cuernavaca Loop,Tatarstan,Nabereznyje Telny,Russian Federation,52671.0,782900030287.0
+448,1,MIGUEL,BETANCOURT,MIGUEL.BETANCOURT@sakilacustomer.org,1,319 Springs Loop,Baijeri,Erlangen,Germany,99552.0,72524459905.0
+449,2,OSCAR,AQUINO,OSCAR.AQUINO@sakilacustomer.org,1,956 Nam Dinh Manor,Kerman,Sirjan,Iran,21872.0,474047727727.0
+450,1,JAY,ROBB,JAY.ROBB@sakilacustomer.org,1,1947 Paarl Way,Central Java,Surakarta,Indonesia,23636.0,834061016202.0
+451,1,JIM,REA,JIM.REA@sakilacustomer.org,1,814 Simferopol Loop,Sinaloa,El Fuerte,Mexico,48745.0,524567129902.0
+452,1,TOM,MILNER,TOM.MILNER@sakilacustomer.org,1,535 Ahmadnagar Manor,Abu Dhabi,Abu Dhabi,United Arab Emirates,41136.0,985109775584.0
+453,1,CALVIN,MARTEL,CALVIN.MARTEL@sakilacustomer.org,1,138 Caracas Boulevard,Zulia,Maracabo,Venezuela,16790.0,974433019532.0
+454,2,ALEX,GRESHAM,ALEX.GRESHAM@sakilacustomer.org,1,251 Florencia Drive,Michoacn de Ocampo,Uruapan,Mexico,16119.0,118011831565.0
+455,2,JON,WILES,JON.WILES@sakilacustomer.org,1,659 Gatineau Boulevard,La Paz,El Alto,Bolivia,28587.0,205524798287.0
+456,2,RONNIE,RICKETTS,RONNIE.RICKETTS@sakilacustomer.org,1,1889 Valparai Way,Ziguinchor,Ziguinchor,Senegal,75559.0,670370974122.0
+457,2,BILL,GAVIN,BILL.GAVIN@sakilacustomer.org,1,1485 Bratislava Place,Illinois,Rockford,United States,83183.0,924663855568.0
+458,1,LLOYD,DOWD,LLOYD.DOWD@sakilacustomer.org,1,935 Aden Boulevard,Central Java,Tegal,Indonesia,64709.0,335052544020.0
+459,1,TOMMY,COLLAZO,TOMMY.COLLAZO@sakilacustomer.org,1,76 Kermanshah Manor,Esfahan,Qomsheh,Iran,23343.0,762361821578.0
+460,1,LEON,BOSTIC,LEON.BOSTIC@sakilacustomer.org,1,734 Tanshui Avenue,Caquet,Florencia,Colombia,70664.0,366776723320.0
+461,1,DEREK,BLAKELY,DEREK.BLAKELY@sakilacustomer.org,1,118 Jaffna Loop,Northern Mindanao,Gingoog,Philippines,10447.0,325526730021.0
+462,2,WARREN,SHERROD,WARREN.SHERROD@sakilacustomer.org,1,1621 Tongliao Avenue,Irkutsk,Usolje-Sibirskoje,Russian Federation,22173.0,209342540247.0
+463,2,DARRELL,POWER,DARRELL.POWER@sakilacustomer.org,1,1844 Usak Avenue,Nova Scotia,Halifax,Canada,84461.0,164414772677.0
+464,1,JEROME,KENYON,JEROME.KENYON@sakilacustomer.org,1,1872 Toulon Loop,OHiggins,Rancagua,Chile,7939.0,928809465153.0
+465,1,FLOYD,GANDY,FLOYD.GANDY@sakilacustomer.org,1,1088 Ibirit Place,Jalisco,Zapopan,Mexico,88502.0,49084281333.0
+466,1,LEO,EBERT,LEO.EBERT@sakilacustomer.org,1,1322 Mosul Parkway,Shandong,Dongying,China,95400.0,268053970382.0
+467,2,ALVIN,DELOACH,ALVIN.DELOACH@sakilacustomer.org,1,1447 Chatsworth Place,Chihuahua,Cuauhtmoc,Mexico,41545.0,769370126331.0
+468,1,TIM,CARY,TIM.CARY@sakilacustomer.org,1,1257 Guadalajara Street,Karnataka,Bijapur,India,33599.0,195337700615.0
+469,2,WESLEY,BULL,WESLEY.BULL@sakilacustomer.org,1,1469 Plock Lane,Galicia,Ourense (Orense),Spain,95835.0,622884741180.0
+470,1,GORDON,ALLARD,GORDON.ALLARD@sakilacustomer.org,1,434 Ourense (Orense) Manor,Hodeida,Hodeida,Yemen,14122.0,562370137426.0
+471,1,DEAN,SAUER,DEAN.SAUER@sakilacustomer.org,1,270 Tambaram Parkway,Gauteng,Johannesburg,South Africa,9668.0,248446668735.0
+472,1,GREG,ROBINS,GREG.ROBINS@sakilacustomer.org,1,1786 Salinas Place,Nam Ha,Nam Dinh,Vietnam,66546.0,206060652238.0
+473,2,JORGE,OLIVARES,JORGE.OLIVARES@sakilacustomer.org,1,1078 Stara Zagora Drive,Aceh,Lhokseumawe,Indonesia,69221.0,932992626595.0
+474,2,DUSTIN,GILLETTE,DUSTIN.GILLETTE@sakilacustomer.org,1,1854 Okara Boulevard,Drenthe,Emmen,Netherlands,42123.0,131912793873.0
+475,2,PEDRO,CHESTNUT,PEDRO.CHESTNUT@sakilacustomer.org,1,421 Yaound Street,Sumy,ostka,Ukraine,11363.0,726875628268.0
+476,1,DERRICK,BOURQUE,DERRICK.BOURQUE@sakilacustomer.org,1,1153 Allende Way,Qubec,Gatineau,Canada,20336.0,856872225376.0
+477,1,DAN,PAINE,DAN.PAINE@sakilacustomer.org,1,808 Naala-Porto Parkway,England,Stockport,United Kingdom,41060.0,553452430707.0
+478,1,LEWIS,LYMAN,LEWIS.LYMAN@sakilacustomer.org,1,632 Usolje-Sibirskoje Parkway,Ha Darom,Ashqelon,Israel,73085.0,667648979883.0
+479,1,ZACHARY,HITE,ZACHARY.HITE@sakilacustomer.org,1,98 Pyongyang Boulevard,Ohio,Akron,United States,88749.0,191958435142.0
+480,1,COREY,HAUSER,COREY.HAUSER@sakilacustomer.org,1,984 Novoterkassk Loop,Gaziantep,Gaziantep,Turkey,28165.0,435118527255.0
+481,1,HERMAN,DEVORE,HERMAN.DEVORE@sakilacustomer.org,1,64 Korla Street,Mwanza,Mwanza,Tanzania,25145.0,510383179153.0
+482,1,MAURICE,CRAWLEY,MAURICE.CRAWLEY@sakilacustomer.org,0,1785 So Bernardo do Campo Street,Veracruz,Coatzacoalcos,Mexico,71182.0,684529463244.0
+483,2,VERNON,CHAPA,VERNON.CHAPA@sakilacustomer.org,1,698 Jelets Boulevard,Denizli,Denizli,Turkey,2596.0,975185523021.0
+484,1,ROBERTO,VU,ROBERTO.VU@sakilacustomer.org,1,1297 Alvorada Parkway,Ningxia,Yinchuan,China,11839.0,508348602835.0
+485,1,CLYDE,TOBIAS,CLYDE.TOBIAS@sakilacustomer.org,1,1909 Dayton Avenue,Guangdong,Shaoguan,China,88513.0,702955450528.0
+486,1,GLEN,TALBERT,GLEN.TALBERT@sakilacustomer.org,1,1789 Saint-Denis Parkway,Coahuila de Zaragoza,Acua,Mexico,8268.0,936806643983.0
+487,2,HECTOR,POINDEXTER,HECTOR.POINDEXTER@sakilacustomer.org,1,185 Mannheim Lane,Stavropol,Pjatigorsk,Russian Federation,23661.0,589377568313.0
+488,2,SHANE,MILLARD,SHANE.MILLARD@sakilacustomer.org,1,184 Mandaluyong Street,Baja California Sur,La Paz,Mexico,94239.0,488425406814.0
+489,1,RICARDO,MEADOR,RICARDO.MEADOR@sakilacustomer.org,1,591 Sungai Petani Drive,Okayama,Okayama,Japan,46400.0,37247325001.0
+490,1,SAM,MCDUFFIE,SAM.MCDUFFIE@sakilacustomer.org,1,656 Matamoros Drive,Boyac,Sogamoso,Colombia,19489.0,17305839123.0
+491,2,RICK,MATTOX,RICK.MATTOX@sakilacustomer.org,1,775 ostka Drive,al-Daqahliya,Mit Ghamr,Egypt,22358.0,171973024401.0
+492,2,LESTER,KRAUS,LESTER.KRAUS@sakilacustomer.org,1,1013 Tabuk Boulevard,West Bengali,Kanchrapara,India,96203.0,158399646978.0
+493,1,BRENT,HARKINS,BRENT.HARKINS@sakilacustomer.org,1,319 Plock Parkway,Istanbul,Sultanbeyli,Turkey,26101.0,854259976812.0
+494,2,RAMON,CHOATE,RAMON.CHOATE@sakilacustomer.org,1,1954 Kowloon and New Kowloon Way,Chimborazo,Robamba,Ecuador,63667.0,898559280434.0
+495,2,CHARLIE,BESS,CHARLIE.BESS@sakilacustomer.org,1,362 Rajkot Lane,Gansu,Baiyin,China,98030.0,962020153680.0
+496,2,TYLER,WREN,TYLER.WREN@sakilacustomer.org,1,1060 Tandil Lane,Shandong,Rizhao,China,72349.0,211256301880.0
+497,2,GILBERT,SLEDGE,GILBERT.SLEDGE@sakilacustomer.org,1,1515 Korla Way,England,York,United Kingdom,57197.0,959467760895.0
+498,1,GENE,SANBORN,GENE.SANBORN@sakilacustomer.org,1,1416 San Juan Bautista Tuxtepec Avenue,Zufar,Salala,Oman,50592.0,144206758053.0
+499,2,MARC,OUTLAW,MARC.OUTLAW@sakilacustomer.org,1,1 Valle de Santiago Avenue,Apulia,Brindisi,Italy,86208.0,465897838272.0
+500,1,REGINALD,KINDER,REGINALD.KINDER@sakilacustomer.org,1,519 Brescia Parkway,East Java,Madiun,Indonesia,69504.0,793996678771.0
+501,1,RUBEN,GEARY,RUBEN.GEARY@sakilacustomer.org,1,414 Mandaluyong Street,Lubelskie,Lublin,Poland,16370.0,52709222667.0
+502,1,BRETT,CORNWELL,BRETT.CORNWELL@sakilacustomer.org,1,1197 Sokoto Boulevard,West Bengali,Siliguri (Shiliguri),India,87687.0,868602816371.0
+503,1,ANGEL,BARCLAY,ANGEL.BARCLAY@sakilacustomer.org,1,496 Celaya Drive,Nagano,Ueda,Japan,90797.0,759586584889.0
+504,1,NATHANIEL,ADAM,NATHANIEL.ADAM@sakilacustomer.org,1,786 Matsue Way,Illinois,Joliet,United States,37469.0,111177206479.0
+505,1,RAFAEL,ABNEY,RAFAEL.ABNEY@sakilacustomer.org,1,48 Maracabo Place,Central Luzon,Talavera,Philippines,1570.0,82671830126.0
+506,2,LESLIE,SEWARD,LESLIE.SEWARD@sakilacustomer.org,1,1152 al-Qatif Lane,Kalimantan Barat,Pontianak,Indonesia,44816.0,131370665218.0
+507,2,EDGAR,RHOADS,EDGAR.RHOADS@sakilacustomer.org,1,1269 Ipoh Avenue,Eskisehir,Eskisehir,Turkey,54674.0,402630109080.0
+508,2,MILTON,HOWLAND,MILTON.HOWLAND@sakilacustomer.org,1,758 Korolev Parkway,Andhra Pradesh,Vijayawada,India,75474.0,441628280920.0
+509,1,RAUL,FORTIER,RAUL.FORTIER@sakilacustomer.org,1,1747 Rustenburg Place,Bihar,Chapra,India,51369.0,442673923363.0
+510,2,BEN,EASTER,BEN.EASTER@sakilacustomer.org,0,886 Tonghae Place,Volgograd,Kamyin,Russian Federation,19450.0,711928348157.0
+511,1,CHESTER,BENNER,CHESTER.BENNER@sakilacustomer.org,1,1574 Goinia Boulevard,Heilongjiang,Suihua,China,39529.0,59634255214.0
+512,1,CECIL,VINES,CECIL.VINES@sakilacustomer.org,1,548 Uruapan Street,Ontario,London,United Kingdom,35653.0,879347453467.0
+513,2,DUANE,TUBBS,DUANE.TUBBS@sakilacustomer.org,1,962 Tama Loop,No district,Yangor,Nauru,65952.0,282667506728.0
+514,2,FRANKLIN,TROUTMAN,FRANKLIN.TROUTMAN@sakilacustomer.org,1,1778 Gijn Manor,Hubei,Zaoyang,China,35156.0,288910576761.0
+515,1,ANDRE,RAPP,ANDRE.RAPP@sakilacustomer.org,1,568 Dhule (Dhulia) Loop,Coquimbo,Coquimbo,Chile,92568.0,602101369463.0
+516,2,ELMER,NOE,ELMER.NOE@sakilacustomer.org,1,1768 Udine Loop,Battambang,Battambang,Cambodia,32347.0,448876499197.0
+517,2,BRAD,MCCURDY,BRAD.MCCURDY@sakilacustomer.org,1,608 Birgunj Parkway,Taipei,Chungho,Taiwan,400.0,627425618482.0
+518,1,GABRIEL,HARDER,GABRIEL.HARDER@sakilacustomer.org,1,680 A Corua (La Corua) Manor,Sivas,Sivas,Turkey,49806.0,158326114853.0
+519,2,RON,DELUCA,RON.DELUCA@sakilacustomer.org,1,1949 Sanya Street,Gumma,Isesaki,Japan,61244.0,132100972047.0
+520,2,MITCHELL,WESTMORELAND,MITCHELL.WESTMORELAND@sakilacustomer.org,1,617 Klerksdorp Place,Khanh Hoa,Nha Trang,Vietnam,94707.0,574973479129.0
+521,2,ROLAND,SOUTH,ROLAND.SOUTH@sakilacustomer.org,1,1993 0 Loop,Liaoning,Yingkou,China,41214.0,25865528181.0
+522,2,ARNOLD,HAVENS,ARNOLD.HAVENS@sakilacustomer.org,1,1176 Southend-on-Sea Manor,Southern Tagalog,Santa Rosa,Philippines,81651.0,236679267178.0
+523,1,HARVEY,GUAJARDO,HARVEY.GUAJARDO@sakilacustomer.org,1,600 Purnea (Purnia) Avenue,Nghe An,Vinh,Vietnam,18043.0,638409958875.0
+524,1,JARED,ELY,JARED.ELY@sakilacustomer.org,1,1003 Qinhuangdao Street,West Java,Purwakarta,Indonesia,25972.0,35533115997.0
+525,2,ADRIAN,CLARY,ADRIAN.CLARY@sakilacustomer.org,1,1986 Sivas Place,Friuli-Venezia Giuli,Udine,Italy,95775.0,182059202712.0
+526,2,KARL,SEAL,KARL.SEAL@sakilacustomer.org,1,1427 Tabuk Place,Florida,Cape Coral,United States,31342.0,214756839122.0
+527,1,CORY,MEEHAN,CORY.MEEHAN@sakilacustomer.org,1,556 Asuncin Way,Mogiljov,Mogiljov,Belarus,35364.0,338244023543.0
+528,1,CLAUDE,HERZOG,CLAUDE.HERZOG@sakilacustomer.org,1,486 Ondo Parkway,Benguela,Benguela,Angola,35202.0,105882218332.0
+529,2,ERIK,GUILLEN,ERIK.GUILLEN@sakilacustomer.org,1,635 Brest Manor,Andhra Pradesh,Bhimavaram,India,40899.0,80593242951.0
+530,2,DARRYL,ASHCRAFT,DARRYL.ASHCRAFT@sakilacustomer.org,1,166 Jinchang Street,Buenos Aires,Ezeiza,Argentina,86760.0,717566026669.0
+531,2,JAMIE,WAUGH,JAMIE.WAUGH@sakilacustomer.org,1,958 Sagamihara Lane,Mie,Kuwana,Japan,88408.0,427274926505.0
+532,2,NEIL,RENNER,NEIL.RENNER@sakilacustomer.org,1,1817 Livorno Way,Khanh Hoa,Cam Ranh,Vietnam,79401.0,478380208348.0
+533,1,JESSIE,MILAM,JESSIE.MILAM@sakilacustomer.org,1,1332 Gaziantep Lane,Shandong,Binzhou,China,22813.0,383353187467.0
+534,1,CHRISTIAN,JUNG,CHRISTIAN.JUNG@sakilacustomer.org,0,949 Allende Lane,Uttar Pradesh,Amroha,India,67521.0,122981120653.0
+535,1,JAVIER,ELROD,JAVIER.ELROD@sakilacustomer.org,1,195 Ilorin Street,Chari-Baguirmi,NDjamna,Chad,49250.0,8912935608.0
+536,2,FERNANDO,CHURCHILL,FERNANDO.CHURCHILL@sakilacustomer.org,1,193 Bhusawal Place,Kang-won,Tonghae,South Korea,9750.0,745267607502.0
+537,2,CLINTON,BUFORD,CLINTON.BUFORD@sakilacustomer.org,1,43 Vilnius Manor,Colorado,Aurora,United States,79814.0,484500282381.0
+538,2,TED,BREAUX,TED.BREAUX@sakilacustomer.org,1,183 Haiphong Street,Jilin,Baicheng,China,69953.0,488600270038.0
+539,1,MATHEW,BOLIN,MATHEW.BOLIN@sakilacustomer.org,1,163 Augusta-Richmond County Loop,Carabobo,Valencia,Venezuela,33030.0,754579047924.0
+540,1,TYRONE,ASHER,TYRONE.ASHER@sakilacustomer.org,1,191 Jos Azueta Parkway,Ruse,Ruse,Bulgaria,13629.0,932156667696.0
+541,2,DARREN,WINDHAM,DARREN.WINDHAM@sakilacustomer.org,1,379 Lublin Parkway,Toscana,Livorno,Italy,74568.0,921960450089.0
+542,2,LONNIE,TIRADO,LONNIE.TIRADO@sakilacustomer.org,1,1658 Cuman Loop,Sumatera Selatan,Pangkal Pinang,Indonesia,51309.0,784907335610.0
+543,1,LANCE,PEMBERTON,LANCE.PEMBERTON@sakilacustomer.org,1,454 Qinhuangdao Drive,Tadla-Azilal,Beni-Mellal,Morocco,25866.0,786270036240.0
+544,2,CODY,NOLEN,CODY.NOLEN@sakilacustomer.org,1,1715 Okayama Street,So Paulo,So Bernardo do Campo,Brazil,55676.0,169352919175.0
+545,2,JULIO,NOLAND,JULIO.NOLAND@sakilacustomer.org,1,182 Nukualofa Drive,Sumy,Konotop,Ukraine,15414.0,426346224043.0
+546,1,KELLY,KNOTT,KELLY.KNOTT@sakilacustomer.org,1,390 Wroclaw Way,Hainan,Sanya,China,5753.0,357593328658.0
+547,1,KURT,EMMONS,KURT.EMMONS@sakilacustomer.org,1,1421 Quilmes Lane,Ishikawa,Kanazawa,Japan,19151.0,135407755975.0
+548,1,ALLAN,CORNISH,ALLAN.CORNISH@sakilacustomer.org,1,947 Trshavn Place,Central Luzon,Tarlac,Philippines,841.0,50898428626.0
+549,1,NELSON,CHRISTENSON,NELSON.CHRISTENSON@sakilacustomer.org,1,1764 Jalib al-Shuyukh Parkway,Galicia,Santiago de Compostela,Spain,77642.0,84794532510.0
+550,2,GUY,BROWNLEE,GUY.BROWNLEE@sakilacustomer.org,1,346 Cam Ranh Avenue,Zhejiang,Zhoushan,China,39976.0,978430786151.0
+551,2,CLAYTON,BARBEE,CLAYTON.BARBEE@sakilacustomer.org,1,1407 Pachuca de Soto Place,Rio Grande do Sul,Alvorada,Brazil,26284.0,380077794770.0
+552,2,HUGH,WALDROP,HUGH.WALDROP@sakilacustomer.org,1,904 Clarksville Drive,Zhejiang,Haining,China,52234.0,955349440539.0
+553,1,MAX,PITT,MAX.PITT@sakilacustomer.org,1,1917 Kumbakonam Parkway,Vojvodina,Novi Sad,Yugoslavia,11892.0,698182547686.0
+554,1,DWAYNE,OLVERA,DWAYNE.OLVERA@sakilacustomer.org,1,1447 Imus Place,Gujarat,Rajkot,India,12905.0,62127829280.0
+555,1,DWIGHT,LOMBARDI,DWIGHT.LOMBARDI@sakilacustomer.org,1,1497 Fengshan Drive,KwaZulu-Natal,Chatsworth,South Africa,63022.0,368738360376.0
+556,2,ARMANDO,GRUBER,ARMANDO.GRUBER@sakilacustomer.org,1,869 Shikarpur Way,England,Southport,United Kingdom,57380.0,590764256785.0
+557,1,FELIX,GAFFNEY,FELIX.GAFFNEY@sakilacustomer.org,1,1059 Yuncheng Avenue,Vilna,Vilnius,Lithuania,47498.0,107092893983.0
+558,1,JIMMIE,EGGLESTON,JIMMIE.EGGLESTON@sakilacustomer.org,0,505 Madiun Boulevard,Dolnoslaskie,Wroclaw,Poland,97271.0,970638808606.0
+559,2,EVERETT,BANDA,EVERETT.BANDA@sakilacustomer.org,1,1741 Hoshiarpur Boulevard,al-Sharqiya,Bilbays,Egypt,22372.0,855066328617.0
+560,1,JORDAN,ARCHULETA,JORDAN.ARCHULETA@sakilacustomer.org,1,1229 Varanasi (Benares) Manor,Buenos Aires,Avellaneda,Argentina,40195.0,817740355461.0
+561,2,IAN,STILL,IAN.STILL@sakilacustomer.org,1,1894 Boa Vista Way,Texas,Garland,United States,77464.0,239357986667.0
+562,1,WALLACE,SLONE,WALLACE.SLONE@sakilacustomer.org,1,1342 Sharja Way,Sokoto & Kebbi & Zam,Sokoto,Nigeria,93655.0,946114054231.0
+563,2,KEN,PREWITT,KEN.PREWITT@sakilacustomer.org,1,1342 Abha Boulevard,Bukarest,Bucuresti,Romania,10714.0,997453607116.0
+564,2,BOB,PFEIFFER,BOB.PFEIFFER@sakilacustomer.org,1,415 Pune Avenue,Shandong,Xintai,China,44274.0,203202500108.0
+565,2,JAIME,NETTLES,JAIME.NETTLES@sakilacustomer.org,1,1746 Faaa Way,Huanuco,Hunuco,Peru,32515.0,863080561151.0
+566,1,CASEY,MENA,CASEY.MENA@sakilacustomer.org,1,539 Hami Way,Tokat,Tokat,Turkey,52196.0,525518075499.0
+567,2,ALFREDO,MCADAMS,ALFREDO.MCADAMS@sakilacustomer.org,1,1407 Surakarta Manor,Moskova,Serpuhov,Russian Federation,33224.0,324346485054.0
+568,2,ALBERTO,HENNING,ALBERTO.HENNING@sakilacustomer.org,1,502 Mandi Bahauddin Parkway,Anzotegui,Barcelona,Venezuela,15992.0,618156722572.0
+569,2,DAVE,GARDINER,DAVE.GARDINER@sakilacustomer.org,1,1052 Pathankot Avenue,Sichuan,Leshan,China,77397.0,128499386727.0
+570,2,IVAN,CROMWELL,IVAN.CROMWELL@sakilacustomer.org,1,1351 Sousse Lane,Coahuila de Zaragoza,Monclova,Mexico,37815.0,203804046132.0
+571,2,JOHNNIE,CHISHOLM,JOHNNIE.CHISHOLM@sakilacustomer.org,1,1501 Pangkal Pinang Avenue,Mazowieckie,Plock,Poland,943.0,770864062795.0
+572,1,SIDNEY,BURLESON,SIDNEY.BURLESON@sakilacustomer.org,1,1405 Hagonoy Avenue,Slaskie,Czestochowa,Poland,86587.0,867287719310.0
+573,1,BYRON,BOX,BYRON.BOX@sakilacustomer.org,1,521 San Juan Bautista Tuxtepec Place,Qaraghandy,Zhezqazghan,Kazakstan,95093.0,844018348565.0
+574,2,JULIAN,VEST,JULIAN.VEST@sakilacustomer.org,1,923 Tangail Boulevard,Tokyo-to,Akishima,Japan,33384.0,315528269898.0
+575,2,ISAAC,OGLESBY,ISAAC.OGLESBY@sakilacustomer.org,1,186 Skikda Lane,Morelos,Cuernavaca,Mexico,89422.0,14465669789.0
+576,2,MORRIS,MCCARTER,MORRIS.MCCARTER@sakilacustomer.org,1,1568 Celaya Parkway,Kaohsiung,Fengshan,Taiwan,34750.0,278669994384.0
+577,2,CLIFTON,MALCOLM,CLIFTON.MALCOLM@sakilacustomer.org,1,1489 Kakamigahara Lane,Taipei,Tanshui,Taiwan,98883.0,29341849811.0
+578,2,WILLARD,LUMPKIN,WILLARD.LUMPKIN@sakilacustomer.org,1,1819 Alessandria Loop,Campeche,Carmen,Mexico,53829.0,377633994405.0
+579,2,DARYL,LARUE,DARYL.LARUE@sakilacustomer.org,1,1208 Tama Loop,Ninawa,Mosul,Iraq,73605.0,954786054144.0
+580,1,ROSS,GREY,ROSS.GREY@sakilacustomer.org,1,951 Springs Lane,Central Mindanao,Iligan,Philippines,96115.0,165164761435.0
+581,1,VIRGIL,WOFFORD,VIRGIL.WOFFORD@sakilacustomer.org,1,760 Miyakonojo Drive,Guerrero,Jos Azueta,Mexico,64682.0,294449058179.0
+582,2,ANDY,VANHORN,ANDY.VANHORN@sakilacustomer.org,1,966 Asuncin Way,Hidalgo,Huejutla de Reyes,Mexico,62703.0,995527378381.0
+583,1,MARSHALL,THORN,MARSHALL.THORN@sakilacustomer.org,1,1584 Ljubertsy Lane,England,Southampton,United Kingdom,22954.0,285710089439.0
+584,2,SALVADOR,TEEL,SALVADOR.TEEL@sakilacustomer.org,1,247 Jining Parkway,Banjul,Banjul,Gambia,53446.0,170115379190.0
+585,1,PERRY,SWAFFORD,PERRY.SWAFFORD@sakilacustomer.org,1,773 Dallas Manor,Buenos Aires,Quilmes,Argentina,12664.0,914466027044.0
+586,1,KIRK,STCLAIR,KIRK.STCLAIR@sakilacustomer.org,1,1923 Stara Zagora Lane,Nantou,Tsaotun,Taiwan,95179.0,182178609211.0
+587,1,SERGIO,STANFIELD,SERGIO.STANFIELD@sakilacustomer.org,1,1402 Zanzibar Boulevard,Guanajuato,Celaya,Mexico,71102.0,387448063440.0
+588,1,MARION,OCAMPO,MARION.OCAMPO@sakilacustomer.org,1,1464 Kursk Parkway,Shandong,Weifang,China,17381.0,338758048786.0
+589,1,TRACY,HERRMANN,TRACY.HERRMANN@sakilacustomer.org,1,1074 Sanaa Parkway,Loja,Loja,Ecuador,22474.0,154124128457.0
+590,2,SETH,HANNON,SETH.HANNON@sakilacustomer.org,1,1759 Niznekamsk Avenue,al-Manama,al-Manama,Bahrain,39414.0,864392582257.0
+591,1,KENT,ARSENAULT,KENT.ARSENAULT@sakilacustomer.org,1,32 Liaocheng Way,Minas Gerais,Juiz de Fora,Brazil,1944.0,410877354933.0
+592,1,TERRANCE,ROUSH,TERRANCE.ROUSH@sakilacustomer.org,0,42 Fontana Avenue,Fejr,Szkesfehrvr,Hungary,14684.0,437829801725.0
+593,2,RENE,MCALISTER,RENE.MCALISTER@sakilacustomer.org,1,1895 Zhezqazghan Drive,California,Garden Grove,United States,36693.0,137809746111.0
+594,1,EDUARDO,HIATT,EDUARDO.HIATT@sakilacustomer.org,1,1837 Kaduna Parkway,Inner Mongolia,Jining,China,82580.0,640843562301.0
+595,1,TERRENCE,GUNDERSON,TERRENCE.GUNDERSON@sakilacustomer.org,1,844 Bucuresti Place,Liaoning,Jinzhou,China,36603.0,935952366111.0
+596,1,ENRIQUE,FORSYTHE,ENRIQUE.FORSYTHE@sakilacustomer.org,1,1101 Bucuresti Boulevard,West Greece,Patras,Greece,97661.0,199514580428.0
+597,1,FREDDIE,DUGGAN,FREDDIE.DUGGAN@sakilacustomer.org,1,1103 Quilmes Boulevard,Piura,Sullana,Peru,52137.0,644021380889.0
+598,1,WADE,DELVALLE,WADE.DELVALLE@sakilacustomer.org,1,1331 Usak Boulevard,Vaud,Lausanne,Switzerland,61960.0,145308717464.0
+599,2,AUSTIN,CINTRON,AUSTIN.CINTRON@sakilacustomer.org,1,1325 Fukuyama Street,Heilongjiang,Tieli,China,27107.0,288241215394.0
