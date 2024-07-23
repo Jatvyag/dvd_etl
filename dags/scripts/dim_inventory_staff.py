@@ -41,8 +41,19 @@ addresses.drop('city_id', axis=1, inplace=True)
 store = store_df.merge(addresses, how='left', on='address_id')
 store.drop('address_id', axis=1, inplace=True)
 
+inventory_df = pd.read_csv(
+    'source/inventory.csv',
+    sep='\t', 
+    header=None, 
+    names=['inventory_id', 'film_id', 'store_id'], 
+    usecols=[0,1,2]
+)
+
+inventory = inventory_df.merge(store, how='left', on='store_id')
+inventory.drop('store_id', axis=1, inplace=True)
+
 # Save file to csv.
-store.to_csv('staging/dim_store.csv', index=False)
+inventory.to_csv('staging/dim_inventory.csv', index=False)
 
 staff_df = pd.read_csv(
     'source/staff.csv',

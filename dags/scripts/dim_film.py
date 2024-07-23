@@ -33,6 +33,13 @@ actor_df = pd.read_csv(
     usecols=[0,1,2],
 )
 
+# Combine actor's first and last names.
+actor_df['actor'] = actor_df['actor_fname'].str.title() + ' ' + actor_df['actor_lname'].str.title()
+actor_df.drop(['actor_fname', 'actor_lname'], inplace=True, axis=1)
+unknown_actor = pd.DataFrame({'actor_id':[-1], 'actor':['UNKWNON NAME']})
+# Create values for unknown actor names.
+actor_df = pd.concat([unknown_actor, actor_df])
+
 category_df = pd.read_csv(
     'source/category.csv',
     sep='\t', 
@@ -66,12 +73,18 @@ language_df = pd.read_csv(
 )
 
 film = film_df.merge(film_category_df, how='left', on='film_id').merge(category_df, how='left', on='category_id')
-film = film.merge(film_actor_df, how='left', on='film_id').merge(actor_df, how='left', on='actor_id')
 film = film.merge(language_df, how='left', on='language_id')
-film.drop(['category_id', 'actor_id', 'language_id'], axis=1, inplace=True)
+film_actor = film_actor_df.merge(actor_df, how='left', on='actor_id')
+film_actor.drop(['actor_id'], axis=1, inplace=True)
+film_actor = film_actor.groupby(['film_id'])['actor'].apply(set).reset_index()
+
+film = film.merge(film_actor, how='left', on='film_id')
+film.fillna(value={'actor':-1}, inplace=True)
+film.drop(['category_id', 'language_id'], axis=1, inplace=True)
+
 film = film[[
     'film_id', 'title', 'description', 'category', 'language', 'rating', 
-    'release_year', 'rental_duration', 'actor_fname', 'actor_lname',
+    'release_year', 'rental_duration', 'actor',
     'special_features', 'fulltext', 'length',
     'rental_rate', 'replacement_cost',     
     ]]
