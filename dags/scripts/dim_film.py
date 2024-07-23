@@ -1,7 +1,4 @@
-import os
 import pandas as pd
-import numpy as np
-from datetime import datetime, timedelta
 
 # Download information about films, excluding information about original language.
 film_df = pd.read_csv(
