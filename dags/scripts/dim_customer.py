@@ -1,7 +1,4 @@
-import os
 import pandas as pd
-import numpy as np
-from datetime import datetime, timedelta
 
 # Download country list.
 country_df = pd.read_csv(
@@ -32,7 +29,7 @@ city_country.drop('country_id', axis=1, inplace=True)
 # Merge cities and addresses.
 addresses = address_df.merge(city_country, how='left', on='city_id')
 addresses.drop('city_id', axis=1, inplace=True)
-addresses.astype({'phone':'Int64'})
+addresses = addresses.astype({'zip':'Int64','phone':'Int64'})
 # Change number notation.
 pd.options.display.float_format = '{:.0f}'.format
 # Addresses 1-2 belongs to stores, addresses 3-4 belongs to staff, so, we remove them from this dimention.
@@ -58,8 +55,6 @@ customer.drop('address_id', axis=1, inplace=True)
 
 # The column 'activebool' has only True values, and 'create_date' only '2022-02-14'. So, we deleted them.
 customer.drop(['activebool', 'create_date'], axis=1, inplace=True)
-
-print(customer.head())
 
 # Save file to csv.
 customer.to_csv('staging/dim_customer.csv', index=False)
