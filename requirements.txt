@@ -7,6 +7,7 @@ apache-airflow==2.9.2
 apache-airflow-providers-celery==3.7.2
 apache-airflow-providers-common-io==1.3.2
 apache-airflow-providers-common-sql==1.14.0
+apache-airflow-providers-docker==3.12.2
 apache-airflow-providers-fab==1.1.1
 apache-airflow-providers-ftp==3.9.1
 apache-airflow-providers-http==4.11.1
@@ -42,6 +43,7 @@ cryptography==41.0.7
 Deprecated==1.2.14
 dill==0.3.1.1
 dnspython==2.6.1
+docker==7.1.0
 docutils==0.16
 email_validator==2.1.1
 exceptiongroup==1.2.1
@@ -118,6 +120,7 @@ Pygments==2.18.0
 PyJWT==2.8.0
 python-daemon==3.0.1
 python-dateutil==2.9.0.post0
+python-dotenv==1.0.1
 python-nvd3==0.16.0
 python-slugify==8.0.4
 pytz==2024.1
